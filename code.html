@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code - ferreira.rocks</title>
+
+    <script src="https://use.fontawesome.com/18ad05af1d.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="">
+          <img src="images/000043-circular.jpg" alt="An extremely handsome dude">
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-link">
+              Photos
+            </div>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="photos/grey">
+                Grey
+              </a>
+
+              <a class="navbar-item" href="photos/orange">
+                Orange
+              </a>
+
+              <a class="navbar-item" href="photos/blue">
+                Blue
+              </a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="code">
+            Code
+          </a>
+
+          <a class="navbar-item" href="now">
+            Now
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Code</h1>
+
+      <section>
+        <h2>This Website - <a href="https://github.com/jmnsf/ferreira.rocks"><i class="fa fa-github"></i></a></h2>
+
+        <p>Ongoing project of course. I&lsquo;m fighting hard to keep it simple with only HTML and CSS. Lets see how long that lasts.</p>
+
+        <h6>Main Tech:</h6>
+        <ul>
+          <li><a href="https://bulma.io/">Bulma</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Exist Extras - <a href="https://github.com/jmnsf/exist_extras"><i class="fa fa-github"></i></a></h2>
+
+        <p>I needed a way to track nutrition data in <a href="https://exist.io/">Exist</a> so I coded this little tool up that allows you to manually submit nutrition data for a given day. Ideally it would integrate with something like MyFitnessPal or Google Fit, but the former closed their API and the latter&lsquo;s API only throws 500s, so that was that.</p>
+
+        <p>The project is currently not online, but I may get that working still on a DO box sometime.</p>
+
+        <h6>Main Tech:</h6>
+
+        <ul>
+          <li><a href="https://elixir-lang.org/">Elixir</a></li>
+          <li><a href="https://maru.readme.io/docs">Maru</a></li>
+          <li><a href="https://bulma.io/">Bulma</a></li>
+        </ul>
+
+        <p>Elixir because it&lsquo;s a pretty awesome language and this project was a nice excuse to use it. Didn&lsquo;t use Phoenix as it felt overkill this particular project.</p>
+      </section>
+
+      <section>
+        <h2>Melie - <a href="https://meliestore.com"><i class="fa fa-link"></i></a></h2>
+
+        <p>Did all the back-end code while a friend worked on all the front-end. Some interesting challenges on this one:</p>
+
+        <ol>
+          <li>
+            Managing item stock in real time to guarantee three things:
+            <ol>
+              <li>What is in your cart isn&lsquo;t be purchaseable by someone else who&lsquo;s quicker than you.</li>
+              <li>If a customer becomes idle, they lose the "right" to an item until they get back online.</li>
+              <li>No two customers can buy the same item.</li>
+            </ol>
+          </li>
+          <li>Complex but efficient product filtering and search using PostgreSQL only. The former required some fancy JOIN-fu to get done right, and the latter was helped tremendously by PostgreSQL&lsquo;s own <a href="https://www.postgresql.org/docs/9.5/static/textsearch.html">fulltext search capabilities</a> which are <em>very</em> decent.</li>
+          <li>Editable translations for all product fields (descriptions, titles, etc.). Again, saved by PostgreSQL&lsquo;s great <a href="https://www.postgresql.org/docs/9.5/static/functions-json.html">JSON support</a>.</li>
+        </ol>
+
+        <p>If you go around to the shop make sure to buy something! Awesome ladies running the show 🙌.</p>
+
+        <h6>Main Tech:</h6>
+
+        <ul>
+          <li><a href="http://rubyonrails.org/">Ruby on Rails</a></li>
+          <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+          <li><a href="https://reactjs.org/">React</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
