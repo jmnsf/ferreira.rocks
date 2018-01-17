@@ -1,0 +1,17 @@
+.section.photos {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section.photos .container {
+  max-width: inherit;
+  width: 100%;
+}
+
+.photos img {
+  margin-bottom: 10%;
+}
+
+.photos img:last-of-type {
+  margin: 0;
+}
