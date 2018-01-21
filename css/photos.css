@@ -1,3 +1,105 @@
+/* Custom Color Rules */
+
+html {
+  background-color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 94%);
+}
+
+::selection {
+  background-color: #C02942;
+}
+
+::-moz-selection {
+  background-color: #C02942;
+}
+
+.navbar {
+  background-color: rgba(30, 30, 30, 1);
+}
+
+a, .navbar-link, .navbar-item {
+  color: hsl(0, 0%, 94%);
+}
+
+a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
+  color: #C02942;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.navbar-item.has-dropdown:hover .navbar-link {
+  color: #C02942;
+  background-color: hsl(0, 0%, 20%);
+}
+
+.navbar-link::after {
+  border-color: hsl(0, 0%, 94%);
+}
+
+.navbar-dropdown {
+  background-color: hsl(0, 0%, 20%);
+}
+
+.footer {
+  background-color: rgba(30, 30, 30, 1);
+}
+
+.footer a:hover {
+  color: #C02942;
+}
+
+.footer #keybase {
+  fill: rgb(240, 240, 240);
+}
+
+.footer a:hover #keybase {
+  fill: #C02942;
+}
+
+/* /photos.html Banners */
+
+.photo-banners .container {
+  margin-top: 6.25rem; /* 3 (same as section padding) + 3.25 (nav height) */
+}
+
+.photo-banners .container:first-child {
+  margin-top: 0;
+}
+
+.photo-section-banner .title {
+  font-family: 'Vollkorn SC';
+  font-weight: 700;
+  font-size: 7rem;
+  color: rgb(240, 240, 240);
+  margin-bottom: 0;
+}
+
+.photo-section-banner .image-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 12.5rem;
+  padding-top: 12.5rem;
+}
+
+.photo-section-banner #coast {
+  background-image: url('/images/coast/3/3-2941.jpg');
+  background-position: center 65%;
+}
+
+.photo-section-banner #human {
+  background-image: url('/images/human/10/10-3091.jpg');
+}
+
+.photo-section-banner #urban {
+  background-image: url('/images/urban/1/1-2941.jpg');
+}
+
+/* Photo Galleries */
+
+main {
+  font-size: 1rem;
+}
+
 .section.photos {
   padding-left: 0;
   padding-right: 0;
@@ -8,10 +110,12 @@
   width: 100%;
 }
 
-.photos img {
-  margin-bottom: 10%;
+.photos figure {
+  margin-bottom: 8%;
 }
 
-.photos img:last-of-type {
-  margin: 0;
+figcaption {
+  color: rgb(170, 170, 170);
+  /*font-style: italic;*/
+  font-family: Vollkorn;
 }
