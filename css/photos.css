@@ -60,9 +60,15 @@ a.navbar-item:hover, .navbar-link:hover {
 
 .photo-header {
   font-family: 'Vollkorn SC', Garamond, serif;
+  font-size: 5rem;
   font-weight: 700;
-  font-size: 7rem; /* Make this size responsive */
   color: rgb(240, 240, 240);
+}
+
+@media (min-width: 1023px) {
+  .photo-header {
+    font-size: 7rem;
+  }
 }
 
 /* /photos.html Banners */
@@ -87,18 +93,120 @@ a.navbar-item:hover, .navbar-link:hover {
   padding-top: 12.5rem;
 }
 
-/* TODO: Make these images responsive */
-.photo-section-banner #coast {
-  background-image: url('/images/coast/3/3-2941.jpg');
-  background-position: center 65%;
+/* coast bg */
+
+/* mobile */
+@media (max-width: 768px) and (max-resolution: 191dpi),
+       (max-width: 768px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-882.jpg');
+    background-position: center 65%;
+  }
 }
 
-.photo-section-banner #human {
-  background-image: url('/images/human/10/10-3091.jpg');
+@media (max-width: 768px) and (min-resolution: 192dpi),
+       (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-1765.jpg');
+    background-position: center 65%;
+  }
 }
 
-.photo-section-banner #urban {
-  background-image: url('/images/urban/1/1-2941.jpg');
+/* tablet */
+@media (min-width: 769px) and (max-width: 1023px) and (min-resolution: 192dpi),
+       (min-width: 769px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2059.jpg');
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) and (max-resolution: 191dpi),
+       (min-width: 769px) and (max-width: 1023px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-1176.jpg');
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) and (max-width: 1215px) and (min-resolution: 192dpi),
+       (min-width: 1024px) and (max-width: 1215px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2647.jpg');
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1215px) and (max-resolution: 191dpi),
+       (min-width: 1024px) and (max-width: 1215px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2059.jpg');
+  }
+}
+
+/* widescreen */
+@media (min-width: 1216px) and (max-width: 1407px) and (min-resolution: 192dpi),
+       (min-width: 1216px) and (max-width: 1407px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2941.jpg');
+  }
+}
+
+@media (min-width: 1216px) and (max-width: 1407px) and (max-resolution: 191dpi),
+       (min-width: 1216px) and (max-width: 1407px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-1471.jpg');
+  }
+}
+
+/* fullhd */
+@media (min-width: 1408px) and (min-resolution: 192dpi),
+       (min-width: 1408px) and (-webkit-min-device-pixel-ratio: 2) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2941.jpg');
+    background-position: center 65%;
+  }
+}
+
+@media (min-width: 1408px) and (max-width: 1765px) and (max-resolution: 191dpi),
+       (min-width: 1408px) and (max-width: 1765px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-1765.jpg');
+    background-position: center 65%;
+  }
+}
+
+@media (min-width: 1766px) and (max-width: 2353px) and (max-resolution: 191dpi),
+       (min-width: 1766px) and (max-width: 2353px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2353.jpg');
+    background-position: center 65%;
+  }
+}
+
+@media (min-width: 2354px) and (max-resolution: 191dpi),
+       (min-width: 2354px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #coast {
+    background-image: url('/images/coast/3/3-2941.jpg');
+    background-position: center 65%;
+  }
+}
+
+/* human bg */
+
+@media (min-width: 1546px) and (min-resolution: 192dpi) {
+  .photo-section-banner #human {
+    background-image: url('/images/human/10/10-3091.jpg');
+  }
+}
+
+/* urban bg */
+
+@media (min-width: 1471px) and (min-resolution: 192dpi),
+       (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2),
+       (min-width: 2941px) and (max-resolution: 191dpi),
+       (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) {
+  .photo-section-banner #urban {
+    background-image: url('/images/urban/1/1-2941.jpg');
+  }
 }
 
 /* Photo Galleries */
