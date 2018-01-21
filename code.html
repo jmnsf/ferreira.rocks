@@ -8,29 +8,48 @@
 
     <script src="https://use.fontawesome.com/18ad05af1d.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn:700i|Roboto+Condensed&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC:600,700|Roboto+Condensed&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/text.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
 
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="images/000043-circular.jpg" alt="An extremely handsome dude">
+          <img src="/images/circled-small.png" alt="An extremely handsome dude">
         </a>
-      </div>
 
-      <div class="navbar-menu">
-        <div class="navbar-start">
+        <div class="navbar-center">
           <a class="navbar-item" href="/code.html">
             Code
           </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <div class="navbar-link">
+            <div class="navbar-link is-hidden-desktop">
               Photos
             </div>
+
+            <a href="/photos.html" class="navbar-link is-hidden-touch">
+              Photos
+            </a>
 
             <div class="navbar-dropdown">
               <a class="navbar-item" href="/photos/coast.html">
@@ -61,7 +80,7 @@
         <div class="content">
           <h2>This Website - <a href="https://github.com/jmnsf/ferreira.rocks"><i class="fa fa-github"></i></a></h2>
 
-          <p>Ongoing project of course. I&lsquo;m fighting hard to keep it simple with only HTML and CSS. Lets see how long that lasts.</p>
+          <p>Ongoing project of course. I&rsquo;m fighting hard to keep it simple with only HTML and CSS. Lets see how long that lasts.</p>
 
           <h6>Main Tech:</h6>
           <ul>
@@ -72,7 +91,7 @@
         <div class="content">
           <h2>Exist Extras - <a href="https://github.com/jmnsf/exist_extras"><i class="fa fa-github"></i></a></h2>
 
-          <p>I needed a way to track nutrition data in <a href="https://exist.io/">Exist</a> so I coded this little tool up that allows you to manually submit nutrition data for a given day. Ideally it would integrate with something like MyFitnessPal or Google Fit, but the former closed their API and the latter&lsquo;s API only throws 500s, so that was that.</p>
+          <p>I needed a way to track nutrition data in <a href="https://exist.io/">Exist</a> so I coded this little tool up that allows you to manually submit nutrition data for a given day. Ideally it would integrate with something like MyFitnessPal or Google Fit, but the former closed their API and the latter&rsquo;s API only throws 500s, so that was that.</p>
 
           <p>The project is currently not online, but I may get that working still on a DO box sometime.</p>
 
@@ -84,7 +103,7 @@
             <li><a href="https://bulma.io/">Bulma</a></li>
           </ul>
 
-          <p>Elixir because it&lsquo;s a pretty awesome language and this project was a nice excuse to use it. Didn&lsquo;t use Phoenix as it felt overkill this particular project.</p>
+          <p>Elixir because it&rsquo;s a pretty awesome language and this project was a nice excuse to use it. Didn&rsquo;t use Phoenix as it felt overkill this particular project.</p>
         </div>
 
         <div class="content">
@@ -96,13 +115,13 @@
             <li>
               Managing item stock in real time to guarantee three things:
               <ol>
-                <li>What is in your cart isn&lsquo;t purchaseable by someone else who&lsquo;s quicker than you.</li>
+                <li>What is in your cart isn&rsquo;t purchaseable by someone else who&rsquo;s quicker than you.</li>
                 <li>If a customer becomes idle, they lose the "right" to an item until they get back online.</li>
                 <li>No two customers can buy the same item.</li>
               </ol>
             </li>
-            <li>Complex but efficient product filtering and search using PostgreSQL only. The former required some fancy JOIN-fu to get done right, and the latter was helped tremendously by PostgreSQL&lsquo;s own <a href="https://www.postgresql.org/docs/9.5/static/textsearch.html">fulltext search capabilities</a> which are <em>very</em> decent.</li>
-            <li>Editable translations for all product fields (descriptions, titles, etc.). Again, saved by PostgreSQL&lsquo;s great <a href="https://www.postgresql.org/docs/9.5/static/functions-json.html">JSON support</a>.</li>
+            <li>Complex but efficient product filtering and search using PostgreSQL only. The former required some fancy JOIN-fu to get done right, and the latter was helped tremendously by PostgreSQL&rsquo;s own <a href="https://www.postgresql.org/docs/9.5/static/textsearch.html">fulltext search capabilities</a> which are <em>very</em> decent.</li>
+            <li>Editable translations for all product fields (descriptions, titles, etc.). Again, saved by PostgreSQL&rsquo;s great <a href="https://www.postgresql.org/docs/9.5/static/functions-json.html">JSON support</a>.</li>
           </ol>
 
           <p>If you go around to the shop make sure to buy something! Awesome ladies running the show 🙌.</p>

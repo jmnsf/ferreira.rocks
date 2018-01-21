@@ -14,14 +14,14 @@ html {
 }
 
 .navbar {
-  background-color: rgba(30, 30, 30, 1);
+  background-color: hsl(0, 0%, 12%);
 }
 
 a, .navbar-link, .navbar-item {
   color: hsl(0, 0%, 94%);
 }
 
-a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
+a.navbar-item:hover, .navbar-link:hover {
   color: #C02942;
   background-color: hsl(0, 0%, 20%);
 }
@@ -39,28 +39,29 @@ a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
   background-color: hsl(0, 0%, 20%);
 }
 
+/* Footer color overrides */
+
 .footer {
   background-color: rgba(30, 30, 30, 1);
 }
 
-.footer a:hover {
-  color: #C02942;
-}
+.footer a { color: hsl(0, 0%, 94%) }
+.footer a:hover { color: rgb(217, 91, 67); }
 
-.footer #keybase {
-  fill: rgb(240, 240, 240);
+.footer a #keybase {
+  fill: hsl(0, 0%, 94%);
 }
 
 .footer a:hover #keybase {
-  fill: #C02942;
+  fill: rgb(217, 91, 67);
 }
 
 /* Headers */
 
 .photo-header {
-  font-family: 'Vollkorn SC';
+  font-family: 'Vollkorn SC', Garamond, serif;
   font-weight: 700;
-  font-size: 7rem;
+  font-size: 7rem; /* Make this size responsive */
   color: rgb(240, 240, 240);
 }
 
@@ -86,6 +87,7 @@ a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
   padding-top: 12.5rem;
 }
 
+/* TODO: Make these images responsive */
 .photo-section-banner #coast {
   background-image: url('/images/coast/3/3-2941.jpg');
   background-position: center 65%;
