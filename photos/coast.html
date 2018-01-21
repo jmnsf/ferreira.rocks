@@ -8,7 +8,7 @@
 
     <script src="https://use.fontawesome.com/18ad05af1d.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Vollkorn:700i|Roboto+Condensed&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC:400,600|Vollkorn:700i,400,700|Roboto+Condensed&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/photos.css">
   </head>
@@ -17,20 +17,22 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          <img src="/images/000043-circular.jpg" alt="An extremely handsome dude">
+          <img src="/images/circled.png" alt="An extremely handsome dude">
         </a>
-      </div>
 
-      <div class="navbar-menu">
-        <div class="navbar-start">
+        <div class="navbar-center">
           <a class="navbar-item" href="/code.html">
             Code
           </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <div class="navbar-link">
+            <div class="navbar-link is-hidden-desktop">
               Photos
             </div>
+
+            <a href="/photos.html" class="navbar-link is-hidden-touch">
+              Photos
+            </a>
 
             <div class="navbar-dropdown">
               <a class="navbar-item" href="/photos/coast.html">
@@ -54,367 +56,428 @@
       </div>
     </nav>
 
-    <main class="section photos">
+    <main class="section photos is-paddingless">
+      <article class="hero is-medium photo-section-link">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title photo-header">Coast</h1>
+          </div>
+        </div>
+      </article>
+
       <div class="container has-text-centered">
-        <img
-          src="/images/coast/2/2-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/2/2-588.jpg 588w,
-                  /images/coast/2/2-882.jpg 882w,
-                  /images/coast/2/2-1176.jpg 1176w,
-                  /images/coast/2/2-1471.jpg 1471w,
-                  /images/coast/2/2-1765.jpg 1765w,
-                  /images/coast/2/2-2059.jpg 2059w,
-                  /images/coast/2/2-2353.jpg 2353w,
-                  /images/coast/2/2-2647.jpg 2647w,
-                  /images/coast/2/2-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/5/5-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/5/5-588.jpg 588w,
-                  /images/coast/5/5-882.jpg 882w,
-                  /images/coast/5/5-1176.jpg 1176w,
-                  /images/coast/5/5-1471.jpg 1471w,
-                  /images/coast/5/5-1765.jpg 1765w,
-                  /images/coast/5/5-2059.jpg 2059w,
-                  /images/coast/5/5-2353.jpg 2353w,
-                  /images/coast/5/5-2647.jpg 2647w,
-                  /images/coast/5/5-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/3/3-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/3/3-588.jpg 588w,
-                  /images/coast/3/3-882.jpg 882w,
-                  /images/coast/3/3-1176.jpg 1176w,
-                  /images/coast/3/3-1471.jpg 1471w,
-                  /images/coast/3/3-1765.jpg 1765w,
-                  /images/coast/3/3-2059.jpg 2059w,
-                  /images/coast/3/3-2353.jpg 2353w,
-                  /images/coast/3/3-2647.jpg 2647w,
-                  /images/coast/3/3-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/4/4-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/4/4-588.jpg 588w,
-                  /images/coast/4/4-882.jpg 882w,
-                  /images/coast/4/4-1176.jpg 1176w,
-                  /images/coast/4/4-1471.jpg 1471w,
-                  /images/coast/4/4-1765.jpg 1765w,
-                  /images/coast/4/4-2059.jpg 2059w,
-                  /images/coast/4/4-2353.jpg 2353w,
-                  /images/coast/4/4-2647.jpg 2647w,
-                  /images/coast/4/4-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/6/6-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/6/6-588.jpg 588w,
-                  /images/coast/6/6-882.jpg 882w,
-                  /images/coast/6/6-1176.jpg 1176w,
-                  /images/coast/6/6-1471.jpg 1471w,
-                  /images/coast/6/6-1765.jpg 1765w,
-                  /images/coast/6/6-2059.jpg 2059w,
-                  /images/coast/6/6-2353.jpg 2353w,
-                  /images/coast/6/6-2647.jpg 2647w,
-                  /images/coast/6/6-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/1/1-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/1/1-545.jpg 545w,
-                  /images/coast/1/1-727.jpg 727w,
-                  /images/coast/1/1-909.jpg 909w,
-                  /images/coast/1/1-1091.jpg 1091w,
-                  /images/coast/1/1-1273.jpg 1273w,
-                  /images/coast/1/1-1454.jpg 1454w,
-                  /images/coast/1/1-1636.jpg 1636w,
-                  /images/coast/1/1-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/16/16-3091.jpg"
-          sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
-                 (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
-                 (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
-                 (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
-                 100vw"
-          srcset="/images/coast/16/16-618.jpq 618w,
-                  /images/coast/16/16-927.jpg 927w,
-                  /images/coast/16/16-1236.jpg 1236w,
-                  /images/coast/16/16-1546.jpg 1546w,
-                  /images/coast/16/16-1855.jpg 1855w,
-                  /images/coast/16/16-2164.jpg 2164w,
-                  /images/coast/16/16-2473.jpg 2473w,
-                  /images/coast/16/16-2782.jpg 2782w,
-                  /images/coast/16/16-2936.jpg 2936w,
-                  /images/coast/16/16-3091.jpg 3091w"
-        >
-        <img
-          src="/images/coast/17/17-3091.jpg"
-          sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
-                 (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
-                 (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
-                 (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
-                 100vw"
-          srcset="/images/coast/17/17-618.jpq 618w,
-                  /images/coast/17/17-927.jpg 927w,
-                  /images/coast/17/17-1236.jpg 1236w,
-                  /images/coast/17/17-1546.jpg 1546w,
-                  /images/coast/17/17-1855.jpg 1855w,
-                  /images/coast/17/17-2164.jpg 2164w,
-                  /images/coast/17/17-2473.jpg 2473w,
-                  /images/coast/17/17-2782.jpg 2782w,
-                  /images/coast/17/17-2936.jpg 2936w,
-                  /images/coast/17/17-3091.jpg 3091w"
-        >
-        <img
-          src="/images/coast/13/13-4160.jpg"
-          sizes="(min-width: 2080px) and (min-resolution: 192dpi) 2080px,
-                 (min-width: 2080px) and (-webkit-min-device-pixel-ratio: 2) 2080px,
-                 (min-width: 4160px) and (max-resolution: 191dpi) 4160px,
-                 (min-width: 4160px) and (-webkit-max-device-pixel-ratio: 1.9) 4160px,
-                 100vw"
-          srset="/images/coast/13/13-416.jpg 416w,
-                 /images/coast/13/13-832.jpg 832w,
-                 /images/coast/13/13-1248.jpg 1248w,
-                 /images/coast/13/13-1664.jpg 1664w,
-                 /images/coast/13/13-2080.jpg 2080w,
-                 /images/coast/13/13-2496.jpg 2496w,
-                 /images/coast/13/13-2912.jpg 2912w,
-                 /images/coast/13/13-3328.jpg 3328w,
-                 /images/coast/13/13-3744.jpg 3744w,
-                 /images/coast/13/13-3952.jpg 3952w,
-                 /images/coast/13/13-4160.jpg 4160w"
-        >
-        <img
-          src="/images/coast/20/20-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/20/20-545.jpg 545w,
-                  /images/coast/20/20-727.jpg 727w,
-                  /images/coast/20/20-909.jpg 909w,
-                  /images/coast/20/20-1091.jpg 1091w,
-                  /images/coast/20/20-1273.jpg 1273w,
-                  /images/coast/20/20-1454.jpg 1454w,
-                  /images/coast/20/20-1636.jpg 1636w,
-                  /images/coast/20/20-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/19/19-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/19/19-545.jpg 545w,
-                  /images/coast/19/19-727.jpg 727w,
-                  /images/coast/19/19-909.jpg 909w,
-                  /images/coast/19/19-1091.jpg 1091w,
-                  /images/coast/19/19-1273.jpg 1273w,
-                  /images/coast/19/19-1454.jpg 1454w,
-                  /images/coast/19/19-1636.jpg 1636w,
-                  /images/coast/19/19-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/12/12-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/12/12-545.jpg 545w,
-                  /images/coast/12/12-727.jpg 727w,
-                  /images/coast/12/12-909.jpg 909w,
-                  /images/coast/12/12-1091.jpg 1091w,
-                  /images/coast/12/12-1273.jpg 1273w,
-                  /images/coast/12/12-1454.jpg 1454w,
-                  /images/coast/12/12-1636.jpg 1636w,
-                  /images/coast/12/12-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/11/11-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/11/11-545.jpg 545w,
-                  /images/coast/11/11-727.jpg 727w,
-                  /images/coast/11/11-909.jpg 909w,
-                  /images/coast/11/11-1091.jpg 1091w,
-                  /images/coast/11/11-1273.jpg 1273w,
-                  /images/coast/11/11-1454.jpg 1454w,
-                  /images/coast/11/11-1636.jpg 1636w,
-                  /images/coast/11/11-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/8/8-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/8/8-588.jpg 588w,
-                  /images/coast/8/8-882.jpg 882w,
-                  /images/coast/8/8-1176.jpg 1176w,
-                  /images/coast/8/8-1471.jpg 1471w,
-                  /images/coast/8/8-1765.jpg 1765w,
-                  /images/coast/8/8-2059.jpg 2059w,
-                  /images/coast/8/8-2353.jpg 2353w,
-                  /images/coast/8/8-2647.jpg 2647w,
-                  /images/coast/8/8-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/7/7-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/7/7-588.jpg 588w,
-                  /images/coast/7/7-882.jpg 882w,
-                  /images/coast/7/7-1176.jpg 1176w,
-                  /images/coast/7/7-1471.jpg 1471w,
-                  /images/coast/7/7-1765.jpg 1765w,
-                  /images/coast/7/7-2059.jpg 2059w,
-                  /images/coast/7/7-2353.jpg 2353w,
-                  /images/coast/7/7-2647.jpg 2647w,
-                  /images/coast/7/7-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/18/18-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/18/18-545.jpg 545w,
-                  /images/coast/18/18-727.jpg 727w,
-                  /images/coast/18/18-909.jpg 909w,
-                  /images/coast/18/18-1091.jpg 1091w,
-                  /images/coast/18/18-1273.jpg 1273w,
-                  /images/coast/18/18-1454.jpg 1454w,
-                  /images/coast/18/18-1636.jpg 1636w,
-                  /images/coast/18/18-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/9/9-2941.jpg"
-          sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
-                 (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
-                 (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
-                 (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
-                 100vw"
-          srcset="/images/coast/9/9-368.jpq 368w,
-                  /images/coast/9/9-588.jpg 588w,
-                  /images/coast/9/9-882.jpg 882w,
-                  /images/coast/9/9-1176.jpg 1176w,
-                  /images/coast/9/9-1471.jpg 1471w,
-                  /images/coast/9/9-1765.jpg 1765w,
-                  /images/coast/9/9-2059.jpg 2059w,
-                  /images/coast/9/9-2353.jpg 2353w,
-                  /images/coast/9/9-2647.jpg 2647w,
-                  /images/coast/9/9-2941.jpg 2941w"
-        >
-        <img
-          src="/images/coast/21/21-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/21/21-545.jpg 545w,
-                  /images/coast/21/21-727.jpg 727w,
-                  /images/coast/21/21-909.jpg 909w,
-                  /images/coast/21/21-1091.jpg 1091w,
-                  /images/coast/21/21-1273.jpg 1273w,
-                  /images/coast/21/21-1454.jpg 1454w,
-                  /images/coast/21/21-1636.jpg 1636w,
-                  /images/coast/21/21-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/15/15-3091.jpg"
-          sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
-                 (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
-                 (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
-                 (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
-                 100vw"
-          srcset="/images/coast/15/15-618.jpq 618w,
-                  /images/coast/15/15-927.jpg 927w,
-                  /images/coast/15/15-1236.jpg 1236w,
-                  /images/coast/15/15-1546.jpg 1546w,
-                  /images/coast/15/15-1855.jpg 1855w,
-                  /images/coast/15/15-2164.jpg 2164w,
-                  /images/coast/15/15-2473.jpg 2473w,
-                  /images/coast/15/15-2782.jpg 2782w,
-                  /images/coast/15/15-2936.jpg 2936w,
-                  /images/coast/15/15-3091.jpg 3091w"
-        >
-        <img
-          src="/images/coast/22/22-1818.jpg"
-          sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
-                 (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
-                 (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
-                 (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
-                 100vw"
-          srcset="/images/coast/22/22-363.jpg 363w,
-                  /images/coast/22/22-545.jpg 545w,
-                  /images/coast/22/22-727.jpg 727w,
-                  /images/coast/22/22-909.jpg 909w,
-                  /images/coast/22/22-1091.jpg 1091w,
-                  /images/coast/22/22-1273.jpg 1273w,
-                  /images/coast/22/22-1454.jpg 1454w,
-                  /images/coast/22/22-1636.jpg 1636w,
-                  /images/coast/22/22-1818.jpg 1818w"
-        >
-        <img
-          src="/images/coast/14/14-4160.jpg"
-          sizes="(min-width: 2080px) and (min-resolution: 192dpi) 2080px,
-                 (min-width: 2080px) and (-webkit-min-device-pixel-ratio: 2) 2080px,
-                 (min-width: 4160px) and (max-resolution: 191dpi) 4160px,
-                 (min-width: 4160px) and (-webkit-max-device-pixel-ratio: 1.9) 4160px,
-                 100vw"
-          srset="/images/coast/14/14-416.jpg 416w,
-                 /images/coast/14/14-832.jpg 832w,
-                 /images/coast/14/14-1248.jpg 1248w,
-                 /images/coast/14/14-1664.jpg 1664w,
-                 /images/coast/14/14-2080.jpg 2080w,
-                 /images/coast/14/14-2496.jpg 2496w,
-                 /images/coast/14/14-2912.jpg 2912w,
-                 /images/coast/14/14-3328.jpg 3328w,
-                 /images/coast/14/14-3744.jpg 3744w,
-                 /images/coast/14/14-3952.jpg 3952w,
-                 /images/coast/14/14-4160.jpg 4160w"
-        >
+        <figure>
+          <img
+            src="/images/coast/2/2-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/2/2-588.jpg 588w,
+                    /images/coast/2/2-882.jpg 882w,
+                    /images/coast/2/2-1176.jpg 1176w,
+                    /images/coast/2/2-1471.jpg 1471w,
+                    /images/coast/2/2-1765.jpg 1765w,
+                    /images/coast/2/2-2059.jpg 2059w,
+                    /images/coast/2/2-2353.jpg 2353w,
+                    /images/coast/2/2-2647.jpg 2647w,
+                    /images/coast/2/2-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | Kodak Ektar 100 | Bondi Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/5/5-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/5/5-588.jpg 588w,
+                    /images/coast/5/5-882.jpg 882w,
+                    /images/coast/5/5-1176.jpg 1176w,
+                    /images/coast/5/5-1471.jpg 1471w,
+                    /images/coast/5/5-1765.jpg 1765w,
+                    /images/coast/5/5-2059.jpg 2059w,
+                    /images/coast/5/5-2353.jpg 2353w,
+                    /images/coast/5/5-2647.jpg 2647w,
+                    /images/coast/5/5-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | Kodak Ektar 100 | Bondi Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/3/3-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/3/3-588.jpg 588w,
+                    /images/coast/3/3-882.jpg 882w,
+                    /images/coast/3/3-1176.jpg 1176w,
+                    /images/coast/3/3-1471.jpg 1471w,
+                    /images/coast/3/3-1765.jpg 1765w,
+                    /images/coast/3/3-2059.jpg 2059w,
+                    /images/coast/3/3-2353.jpg 2353w,
+                    /images/coast/3/3-2647.jpg 2647w,
+                    /images/coast/3/3-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | Kodak Ektar 100 | Bondi Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/4/4-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/4/4-588.jpg 588w,
+                    /images/coast/4/4-882.jpg 882w,
+                    /images/coast/4/4-1176.jpg 1176w,
+                    /images/coast/4/4-1471.jpg 1471w,
+                    /images/coast/4/4-1765.jpg 1765w,
+                    /images/coast/4/4-2059.jpg 2059w,
+                    /images/coast/4/4-2353.jpg 2353w,
+                    /images/coast/4/4-2647.jpg 2647w,
+                    /images/coast/4/4-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | Kodak Ektar 100 | Bondi Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/6/6-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/6/6-588.jpg 588w,
+                    /images/coast/6/6-882.jpg 882w,
+                    /images/coast/6/6-1176.jpg 1176w,
+                    /images/coast/6/6-1471.jpg 1471w,
+                    /images/coast/6/6-1765.jpg 1765w,
+                    /images/coast/6/6-2059.jpg 2059w,
+                    /images/coast/6/6-2353.jpg 2353w,
+                    /images/coast/6/6-2647.jpg 2647w,
+                    /images/coast/6/6-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | Kodak Ektar 100 | Coogee Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/1/1-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/1/1-545.jpg 545w,
+                    /images/coast/1/1-727.jpg 727w,
+                    /images/coast/1/1-909.jpg 909w,
+                    /images/coast/1/1-1091.jpg 1091w,
+                    /images/coast/1/1-1273.jpg 1273w,
+                    /images/coast/1/1-1454.jpg 1454w,
+                    /images/coast/1/1-1636.jpg 1636w,
+                    /images/coast/1/1-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Fujifilm Fujicolor Superia Venus 800 | Kangaroo Island</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/16/16-3091.jpg"
+            sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
+                   (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
+                   (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
+                   (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
+                   100vw"
+            srcset="/images/coast/16/16-618.jpq 618w,
+                    /images/coast/16/16-927.jpg 927w,
+                    /images/coast/16/16-1236.jpg 1236w,
+                    /images/coast/16/16-1546.jpg 1546w,
+                    /images/coast/16/16-1855.jpg 1855w,
+                    /images/coast/16/16-2164.jpg 2164w,
+                    /images/coast/16/16-2473.jpg 2473w,
+                    /images/coast/16/16-2782.jpg 2782w,
+                    /images/coast/16/16-2936.jpg 2936w,
+                    /images/coast/16/16-3091.jpg 3091w"
+          >
+          <figcaption>Canon A1 | Kodak Tri-X 400 | Kangaroo Island</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/images/coast/17/17-3091.jpg"
+            sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
+                   (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
+                   (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
+                   (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
+                   100vw"
+            srcset="/images/coast/17/17-618.jpq 618w,
+                    /images/coast/17/17-927.jpg 927w,
+                    /images/coast/17/17-1236.jpg 1236w,
+                    /images/coast/17/17-1546.jpg 1546w,
+                    /images/coast/17/17-1855.jpg 1855w,
+                    /images/coast/17/17-2164.jpg 2164w,
+                    /images/coast/17/17-2473.jpg 2473w,
+                    /images/coast/17/17-2782.jpg 2782w,
+                    /images/coast/17/17-2936.jpg 2936w,
+                    /images/coast/17/17-3091.jpg 3091w"
+          >
+          <figcaption>Canon A1 | Kodak Tri-X 400 | Kangaroo Island</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="/images/coast/13/13-4160.jpg"
+            sizes="(min-width: 2080px) and (min-resolution: 192dpi) 2080px,
+                   (min-width: 2080px) and (-webkit-min-device-pixel-ratio: 2) 2080px,
+                   (min-width: 4160px) and (max-resolution: 191dpi) 4160px,
+                   (min-width: 4160px) and (-webkit-max-device-pixel-ratio: 1.9) 4160px,
+                   100vw"
+            srset="/images/coast/13/13-416.jpg 416w,
+                   /images/coast/13/13-832.jpg 832w,
+                   /images/coast/13/13-1248.jpg 1248w,
+                   /images/coast/13/13-1664.jpg 1664w,
+                   /images/coast/13/13-2080.jpg 2080w,
+                   /images/coast/13/13-2496.jpg 2496w,
+                   /images/coast/13/13-2912.jpg 2912w,
+                   /images/coast/13/13-3328.jpg 3328w,
+                   /images/coast/13/13-3744.jpg 3744w,
+                   /images/coast/13/13-3952.jpg 3952w,
+                   /images/coast/13/13-4160.jpg 4160w"
+          >
+          <figcaption>OnePlus 2 | Kangaroo Island</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/19/19-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/19/19-545.jpg 545w,
+                    /images/coast/19/19-727.jpg 727w,
+                    /images/coast/19/19-909.jpg 909w,
+                    /images/coast/19/19-1091.jpg 1091w,
+                    /images/coast/19/19-1273.jpg 1273w,
+                    /images/coast/19/19-1454.jpg 1454w,
+                    /images/coast/19/19-1636.jpg 1636w,
+                    /images/coast/19/19-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Great Ocean Road</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/12/12-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/12/12-545.jpg 545w,
+                    /images/coast/12/12-727.jpg 727w,
+                    /images/coast/12/12-909.jpg 909w,
+                    /images/coast/12/12-1091.jpg 1091w,
+                    /images/coast/12/12-1273.jpg 1273w,
+                    /images/coast/12/12-1454.jpg 1454w,
+                    /images/coast/12/12-1636.jpg 1636w,
+                    /images/coast/12/12-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Kodak Portra 400 | Great Ocean Road</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/11/11-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/11/11-545.jpg 545w,
+                    /images/coast/11/11-727.jpg 727w,
+                    /images/coast/11/11-909.jpg 909w,
+                    /images/coast/11/11-1091.jpg 1091w,
+                    /images/coast/11/11-1273.jpg 1273w,
+                    /images/coast/11/11-1454.jpg 1454w,
+                    /images/coast/11/11-1636.jpg 1636w,
+                    /images/coast/11/11-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Kodak Portra 400 | Great Ocean Road</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/8/8-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/8/8-588.jpg 588w,
+                    /images/coast/8/8-882.jpg 882w,
+                    /images/coast/8/8-1176.jpg 1176w,
+                    /images/coast/8/8-1471.jpg 1471w,
+                    /images/coast/8/8-1765.jpg 1765w,
+                    /images/coast/8/8-2059.jpg 2059w,
+                    /images/coast/8/8-2353.jpg 2353w,
+                    /images/coast/8/8-2647.jpg 2647w,
+                    /images/coast/8/8-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | CineStill 50Daylight | Whitehaven Beach</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/18/18-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/18/18-545.jpg 545w,
+                    /images/coast/18/18-727.jpg 727w,
+                    /images/coast/18/18-909.jpg 909w,
+                    /images/coast/18/18-1091.jpg 1091w,
+                    /images/coast/18/18-1273.jpg 1273w,
+                    /images/coast/18/18-1454.jpg 1454w,
+                    /images/coast/18/18-1636.jpg 1636w,
+                    /images/coast/18/18-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Melbourne</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/9/9-2941.jpg"
+            sizes="(min-width: 1471px) and (min-resolution: 192dpi) 1471px,
+                   (min-width: 1471px) and (-webkit-min-device-pixel-ratio: 2) 1471px,
+                   (min-width: 2941px) and (max-resolution: 191dpi) 2941px,
+                   (min-width: 2941px) and (-webkit-max-device-pixel-ratio: 1.9) 2941px,
+                   100vw"
+            srcset="/images/coast/9/9-368.jpq 368w,
+                    /images/coast/9/9-588.jpg 588w,
+                    /images/coast/9/9-882.jpg 882w,
+                    /images/coast/9/9-1176.jpg 1176w,
+                    /images/coast/9/9-1471.jpg 1471w,
+                    /images/coast/9/9-1765.jpg 1765w,
+                    /images/coast/9/9-2059.jpg 2059w,
+                    /images/coast/9/9-2353.jpg 2353w,
+                    /images/coast/9/9-2647.jpg 2647w,
+                    /images/coast/9/9-2941.jpg 2941w"
+          >
+          <figcaption>Canon A1 | CineStill 50Daylight | Whitsunday Island</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/21/21-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/21/21-545.jpg 545w,
+                    /images/coast/21/21-727.jpg 727w,
+                    /images/coast/21/21-909.jpg 909w,
+                    /images/coast/21/21-1091.jpg 1091w,
+                    /images/coast/21/21-1273.jpg 1273w,
+                    /images/coast/21/21-1454.jpg 1454w,
+                    /images/coast/21/21-1636.jpg 1636w,
+                    /images/coast/21/21-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Great Ocean Road</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/15/15-3091.jpg"
+            sizes="(min-width: 1546px) and (min-resolution: 192dpi) 1546px,
+                   (min-width: 1546px) and (-webkit-min-device-pixel-ratio: 2) 1546px,
+                   (min-width: 3091px) and (max-resolution: 191dpi) 3091px,
+                   (min-width: 3091px) and (-webkit-max-device-pixel-ratio: 1.9) 3091px,
+                   100vw"
+            srcset="/images/coast/15/15-618.jpq 618w,
+                    /images/coast/15/15-927.jpg 927w,
+                    /images/coast/15/15-1236.jpg 1236w,
+                    /images/coast/15/15-1546.jpg 1546w,
+                    /images/coast/15/15-1855.jpg 1855w,
+                    /images/coast/15/15-2164.jpg 2164w,
+                    /images/coast/15/15-2473.jpg 2473w,
+                    /images/coast/15/15-2782.jpg 2782w,
+                    /images/coast/15/15-2936.jpg 2936w,
+                    /images/coast/15/15-3091.jpg 3091w"
+          >
+          <figcaption>Canon A1 | Kodak Tri-X 400 | Kangaroo Island</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/22/22-1818.jpg"
+            sizes="(min-width: 909px) and (min-resolution: 192dpi) 909px,
+                   (min-width: 909px) and (-webkit-min-device-pixel-ratio: 2) 909px,
+                   (min-width: 1818px) and (max-resolution: 191dpi) 1818px,
+                   (min-width: 1818px) and (-webkit-max-device-pixel-ratio: 1.9) 1818px,
+                   100vw"
+            srcset="/images/coast/22/22-363.jpg 363w,
+                    /images/coast/22/22-545.jpg 545w,
+                    /images/coast/22/22-727.jpg 727w,
+                    /images/coast/22/22-909.jpg 909w,
+                    /images/coast/22/22-1091.jpg 1091w,
+                    /images/coast/22/22-1273.jpg 1273w,
+                    /images/coast/22/22-1454.jpg 1454w,
+                    /images/coast/22/22-1636.jpg 1636w,
+                    /images/coast/22/22-1818.jpg 1818w"
+          >
+          <figcaption>Canon A1 | Great Ocean Road</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="/images/coast/14/14-4160.jpg"
+            sizes="(min-width: 2080px) and (min-resolution: 192dpi) 2080px,
+                   (min-width: 2080px) and (-webkit-min-device-pixel-ratio: 2) 2080px,
+                   (min-width: 4160px) and (max-resolution: 191dpi) 4160px,
+                   (min-width: 4160px) and (-webkit-max-device-pixel-ratio: 1.9) 4160px,
+                   100vw"
+            srset="/images/coast/14/14-416.jpg 416w,
+                   /images/coast/14/14-832.jpg 832w,
+                   /images/coast/14/14-1248.jpg 1248w,
+                   /images/coast/14/14-1664.jpg 1664w,
+                   /images/coast/14/14-2080.jpg 2080w,
+                   /images/coast/14/14-2496.jpg 2496w,
+                   /images/coast/14/14-2912.jpg 2912w,
+                   /images/coast/14/14-3328.jpg 3328w,
+                   /images/coast/14/14-3744.jpg 3744w,
+                   /images/coast/14/14-3952.jpg 3952w,
+                   /images/coast/14/14-4160.jpg 4160w"
+          >
+          <figcaption>OnePlus 2 | Gold Coast</figcaption>
+        </figure>
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="container has-text-centered">
+        <p>
+          <a href="https://www.instagram.com/ferreira.rocks"><i class="fa fa-fw fa-instagram"></i></a>
+          <a href="https://keybase.io/jmnsf">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 71 76.3" style="enable-background:new 0 0 71 76.3;" xml:space="preserve"><g transform="translate(-241.11756,-377.8123)"><path id="keybase" d="M247.8,451.8c-0.6-1.3-1.4-3.1-1.8-4l-0.6-1.7l-2,2.2l-2,2.2 l-0.2-4.2c-0.3-6,0.2-12.2,1.2-16.6c2.3-9.8,9.5-18.7,18.8-23.4l2.1-1l-0.5-1.5c-0.3-0.8-0.6-2.5-0.7-3.6l-0.2-2.1l-2.1-0.2 c-3.2-0.3-4.9-1.2-6-3.5c-0.6-1.2-0.6-1.4-0.4-4.6c0.2-4.2,0.5-5.1,1.8-6.5c1.6-1.8,2.7-2.1,6.7-1.9c2.9,0.2,3.5,0.3,4.8,0.9 c0.8,0.4,1.5,0.8,1.6,0.8c0.1,0,1-1.1,2.1-2.6l1.9-2.7l1.2,0.7c0.7,0.4,1.5,0.9,1.9,1.1l0.7,0.4l-0.6,1.5c-0.3,0.8-0.7,2.2-0.8,2.9 l-0.2,1.4l1.7,0.2c6.1,0.6,10.7,4.3,12.4,9.9c0.5,1.8,0.5,5.3,0,7c-0.5,1.6-0.5,1.7-0.1,1.7c0.7,0,5.4,2.3,7.3,3.5 c3.7,2.4,8,6.6,10.4,10.2c4.5,6.7,6.4,14,5.6,22c-0.4,4.8-1.3,8.6-2.9,12.3l-0.6,1.4l-2.5,0l-2.5,0l1.2-2.4 c1.3-2.6,2.3-6.2,2.8-9.4c0.3-2.2,0.4-8.2,0.1-9.3l-0.2-0.7l-1.3,1.4c-3.2,3.5-7.9,4.5-14.2,2.8c-5.4-1.4-7.6-1.7-12.7-1.7 c-3.9,0-5.2,0.1-7.3,0.6c-5.8,1.3-9.9,3.2-15.6,7.3c-2.1,1.5-3.8,2.7-3.9,2.7c-0.1,0,0.2-1,0.6-2.3c0.4-1.3,1.1-3.4,1.5-4.8 l0.8-2.5l-0.9,0.9c-0.5,0.5-1.9,1.9-3.1,3.2l-2.1,2.3l0.5,1.9c0.6,2.5,2,5.6,3.5,7.9c0.6,1,1.1,1.8,1.1,1.9s-1.2,0.1-2.6,0.1h-2.6 L247.8,451.8L247.8,451.8z M256.6,427.6c4.8-5.1,8.7-9.2,8.8-9.2c0.1,0.1-0.4,1.6-0.9,3.3c-3.3,10.4-4,12.4-3.9,12.5 c0,0,1.2-0.4,2.5-0.9c8.5-3.7,18.4-4.2,28.9-1.4c4.7,1.2,6.5,1.2,8.8,0c1.3-0.7,1.8-1.1,2.4-2.1c1.1-1.7,1.2-4.1,0.5-6.3 c-1.7-4.8-8.3-11-14.5-13.7c-3.2-1.4-3.4-1.4-4.1-0.7l-0.6,0.6l2.6,3.2c1.4,1.7,2.9,3.6,3.1,4.1c0.6,1.2,0.7,3.1,0.1,4.3 c-0.8,1.7-3.2,2.9-5.1,2.5c-0.8-0.2-1.1-0.1-1.9,0.5c-2.2,1.6-4.6,1.2-6.6-1.2c-1.6-1.8-2-2.7-2.1-4.5c0-0.9-0.3-2-0.5-2.4 c-0.3-0.6-0.4-1.3-0.4-2.2l0.1-1.4l-1.3-0.3c-1.8-0.5-3.9-1.5-5.1-2.4c-0.6-0.4-1.1-0.8-1.3-0.8s-1.5,0.6-2.9,1.3 c-9.7,5-16,14.3-17,24.8c-0.1,1-0.2,2.3-0.3,2.8l-0.1,0.9l1.1-1.1C247.4,437.3,251.8,432.7,256.6,427.6L256.6,427.6z M282.5,420.2 c0.9-0.7,1.7-1.3,1.9-1.3c0.1,0,0.4,0.3,0.7,0.7c0.5,0.8,1.4,0.8,1.8,0.1c0.3-0.5,0.3-0.6-5.6-7.8c-3.5-4.3-4.2-5-4.7-5 c-1.2,0.1-0.9,1,1,3.3l1.8,2.2l-1,0.8c-1.1,1-1.2,1.2-0.5,1.8c0.5,0.5,0.6,0.4,1.6-0.3l1.1-0.7l0.7,0.6c0.4,0.3,0.6,0.8,0.6,0.9 c0,0.2-0.8,0.9-1.7,1.7c-0.9,0.7-1.6,1.5-1.6,1.7c0,0.3,0.5,1.1,1.4,2.2C280.3,421.7,280.8,421.5,282.5,420.2L282.5,420.2z  M272.2,406c0.6-1.8,2.6-3.2,4.6-3.2c1.1,0,2.7,0.9,3.8,2.1l1,1.2l0.9-1.1c2.5-2.8,2.8-6.7,0.8-10.1c-1.5-2.5-4.3-4-8.2-4.4 c-2.1-0.2-2.6-0.4-3.7-1.5l-0.8-0.8l-0.4,0.6c-0.8,1.2-2.5,5.1-3,6.6c-0.7,2.3-0.4,5.9,0.5,7.7c0.9,1.7,3.3,4,4,3.7 C271.8,406.9,272,406.5,272.2,406L272.2,406z M263.3,392.4c0.2-0.5,0.7-1.8,1.2-2.8c0.5-1,0.9-2,0.9-2.3c0-0.9-1-1.3-3.7-1.5 c-2.4-0.2-2.6-0.1-3.1,0.4c-0.4,0.4-0.6,0.9-0.6,1.6c0,0.6-0.1,1.7-0.2,2.6c-0.2,2.1,0.1,2.5,2.2,2.8 C263.1,393.4,263,393.4,263.3,392.4z M260.2,390c0-1.7,0.2-1.9,1.6-1.9h1.3v1.4v1.4h-1.4h-1.4V390z M266.5,448.3 c-0.6-0.6-0.8-1-0.8-2c0-1.9,1.1-3,2.9-3c1.7,0,2.9,1.2,2.9,2.9c0,1.8-1.1,2.8-3,2.9C267.5,449.1,267.1,448.9,266.5,448.3 L266.5,448.3z M285.8,448.6c-2.3-1.8-1.1-5.3,1.8-5.3c1.8,0,2.8,1.1,2.9,3c0,1.1-0.1,1.4-0.8,2s-1,0.8-2,0.8 C286.8,449.1,286.2,448.9,285.8,448.6L285.8,448.6z"/></g></svg>
+          </a>
+          <a href="https://github.com/jmnsf"><i class="fa fa-fw fa-github"></i></a>
+          <a href="mailto:1@ferreira.rocks"><i class="fa fa-fw fa-envelope-o"></i></a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

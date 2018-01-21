@@ -55,6 +55,15 @@ a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
   fill: #C02942;
 }
 
+/* Headers */
+
+.photo-header {
+  font-family: 'Vollkorn SC';
+  font-weight: 700;
+  font-size: 7rem;
+  color: rgb(240, 240, 240);
+}
+
 /* /photos.html Banners */
 
 .photo-banners .container {
@@ -65,11 +74,7 @@ a.navbar-item:hover, .navbar-item.has-dropdown:hover, .navbar-link:hover {
   margin-top: 0;
 }
 
-.photo-section-banner .title {
-  font-family: 'Vollkorn SC';
-  font-weight: 700;
-  font-size: 7rem;
-  color: rgb(240, 240, 240);
+.photo-section-banner .photo-header {
   margin-bottom: 0;
 }
 
@@ -114,8 +119,11 @@ main {
   margin-bottom: 8%;
 }
 
+.photos figure:last-child {
+  margin-bottom: 2%;
+}
+
 figcaption {
-  color: rgb(170, 170, 170);
-  /*font-style: italic;*/
-  font-family: Vollkorn;
+  color: hsl(0, 0%, 75%);
+  font-family: 'Vollkorn';
 }
