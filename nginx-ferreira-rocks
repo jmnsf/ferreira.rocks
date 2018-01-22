@@ -1,0 +1,12 @@
+server {
+  server_name ferreira.rocks www.ferreira.rocks 139.59.113.50;
+  root /data/www/ferreira.rocks;
+
+  location = / {
+    try_files /index.html =404;
+  }
+
+  location / {
+    try_files $uri =404;
+  }
+}
