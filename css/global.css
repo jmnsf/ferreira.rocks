@@ -96,10 +96,13 @@ main a:hover, footer a:hover { color: rgb(217, 91, 67); }
   fill: rgb(217, 91, 67);
 }
 
-/* TODO: glow footer contact icons when footer is targeted */
-/*footer:target {
-  background-color: green;
-}*/
+footer:target #keybase {
+  animation: link-glow 1s;
+}
+
+footer:target a {
+  animation: link-glow 1s;
+}
 
 .text {
   max-width: 33em;
@@ -144,5 +147,12 @@ body {
 @media (-moz-touch-enabled: 0) {
   span[title] {
     text-decoration: underline dotted rgb(83, 119, 122);
+  }
+}
+
+@keyframes link-glow {
+  50% {
+    color: rgb(236, 208, 120);
+    fill: rgb(236, 208, 120);
   }
 }

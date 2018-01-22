@@ -1,2 +1,2 @@
 #!/bin/sh
-rsync -chrvz --bwlimit=20 --exclude=.* --progress images root@ferreira.rocks:/data/www
+rsync -chrvz --exclude=.* --progress images root@ferreira.rocks:/data/www/ferreira.rocks
