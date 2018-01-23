@@ -1,5 +1,5 @@
 server {
-  server_name ferreira.rocks www.ferreira.rocks 139.59.113.50;
+  server_name ferreira.rocks www.ferreira.rocks;
   root /data/www/ferreira.rocks;
 
   location = / {
