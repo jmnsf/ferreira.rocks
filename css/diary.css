@@ -1,0 +1,15 @@
+.diary-title {
+  margin-top: 1em;
+}
+
+.diary-footer {
+  border-color: #8D8D8D;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  color: #8D8D8D;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 384px) {
+  body { font-size: 0.7rem; }
+}
