@@ -1,17 +1,19 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
     <title>Diary - ferreira.rocks</title>
 
     <script src="https://use.fontawesome.com/18ad05af1d.js"></script>
+    <script src="/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" src="/src/shared/full-width-iframe.js"></script>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC:600,700|Roboto+Condensed:400,400i&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/diary.css">
-
     <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
@@ -32,6 +34,17 @@
   </head>
 
   <body>
+    <template id="full-width-iframe">
+      <iframe
+        width=""
+        height=""
+        src=""
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+      ></iframe>
+    </template>
+
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
@@ -47,30 +60,6 @@
             Code
           </a>
 
-          <div class="navbar-item has-dropdown is-hoverable is-hidden-touch">
-            <a href="/photos.html" class="navbar-link">
-              Photos
-            </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item" href="/photos/coast.html">
-                Coast
-              </a>
-
-              <a class="navbar-item" href="/photos/human.html">
-                Human
-              </a>
-
-              <a class="navbar-item" href="/photos/urban.html">
-                Urban
-              </a>
-            </div>
-          </div>
-
-          <a href="/photos.html" class="navbar-item is-hidden-desktop">
-            Photos
-          </a>
-
           <a class="navbar-item" href="/now.html">
             Now
           </a>
@@ -81,6 +70,50 @@
     <main class="section">
       <div class="container text">
         <h1 class="title is-size-1">Diary</h1>
+
+        <article>
+          <h2 class="diary-title is-size-2" id="12-learning-web-components">
+            <a href="#12-learning-web-components">Learning Web Components</a>
+          </h2>
+
+          <section class="content">
+            <p>I&rsquo;ve been curious about Web Components since I first heard about them at JSDay and I&rsquo;ve finally fabricated an oportunity to dip my toes on that a little bit.</p>
+
+            <p>The embedded Vimeo and YouTube videos on this page were an annoyance from the start because although everything&rsquo;s responsive here via CSS, the <code>iframe</code> tag takes its size through HTML attributes. In short, this means the width was hardcoded to some arbitrary number that took no account of the screen size.</p>
+
+            <p>Changing this meant JavaScript, and so I decided to write a Custom Component for it instead of doing DOM manipulation. After trying to figure out how it all worked and an initial implementation in <a href="https://www.polymer-project.org/">Polymer</a>, it came out <a href="https://github.com/jmnsf/ferreira.rocks/pull/2">quite nicely</a>: the videos are now full-width and also resize when the window size changes.</p>
+
+            <p>It&rsquo;s barebones, only uses Custom Components with a <code>template</code> element, but works! Sort of. You can&rsquo;t full-screen now because it&rsquo;ll act as a re-size and reload the iframe 🤦‍♂️. Something to fix another day.</p>
+
+            <h3 class="is-size-3">
+              Current Status of Web Components
+            </h3>
+
+            <p>Not too clear... There was a ton of contention between the different browser vendors on how the spec should look like, so it&rsquo;s taken ages to get anywhere. Haven&rsquo;t been able to find much info on this yet, but a recent <a href="https://www.polymer-project.org/blog/2018-05-02-roadmap-update.html">post</a> in the Polymer blog suggests that agreement is near, at least for a few features.</p>
+
+            <p>An interesting development is that Mozilla have been sucessful in pushing for the removal of HTML Imports, in favor of using the existing ES Modules system for importing components. A new spec is being worked on to integrate those.</p>
+
+            <h3 class="is-size-3">
+              Photos
+            </h3>
+
+            <p>I&rsquo;ve gone ahead and removed the Photos section as well. It&rsquo;s out of date and not working too well (read: it&rsquo;s heavy as fuck) so it&rsquo;s gone. More opportunity to do some other components 😊.</p>
+
+            <hr>
+
+            <h3 class="is-size-3">
+              Resources
+            </h3>
+
+            <p>There's a succint <a href="https://developers.google.com/web/fundamentals/web-components/customelements">guide</a> by Google that was a huge guide to get this working.</p>
+
+            <p>Mozilla also have a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements">guide</a> for Custom Components that&rsquo;s not as terse as Google&rsquo;s.</p>
+          </section>
+
+          <section class="diary-footer">
+            Posted on <time datetime="2018-08-5">August 5th, 2018</time> from Belgrade, Serbia.
+          </section>
+        </article>
 
         <article>
           <h2 class="diary-title is-size-2" id="11-mans-search-for-meaning">
@@ -344,7 +377,7 @@
           </h2>
 
           <section>
-            <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/lio7k3tMoqM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <full-width-iframe original-width="640" original-height="360" src="https://www.youtube-nocookie.com/embed/lio7k3tMoqM?rel=0"></full-width-iframe>
           </section>
 
           <section class="content">
@@ -627,7 +660,7 @@
           </h2>
 
           <section>
-            <iframe src="https://player.vimeo.com/video/193900430" width="640" height="312" frameborder="0" allowfullscreen></iframe>
+            <full-width-iframe original-width="640" original-height="312" src="https://player.vimeo.com/video/193900430"></full-width-iframe>
           </section>
 
           <section class="content">
