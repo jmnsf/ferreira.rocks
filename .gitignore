@@ -2,3 +2,5 @@
 *.sublime-workspace
 images/**/*.jpg
 images/**/*.png
+/node_modules
+dist

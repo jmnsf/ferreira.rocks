@@ -1,5 +1,8 @@
 {
- "name": "App",
+ "name": "João Ferreira's Personal Website",
+ "short_name": "João Ferreira",
+ "start_url": "/",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/icons\/android-icon-36x36.png",
