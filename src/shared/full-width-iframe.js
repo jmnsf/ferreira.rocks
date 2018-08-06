@@ -1,14 +1,11 @@
+import CustomElement from './custom-element.js'
+
 const RESIZE_REFRESH = 150
 
-window.customElements.define('full-width-iframe', class extends HTMLElement {
+export default class FullWidthIframe extends CustomElement {
   connectedCallback() {
-    this._resizeListener = () => this.resizeListener()
-    window.addEventListener('resize', this._resizeListener)
+    this.addControlledEventListener(window, 'resize', () => this.resizeListener())
     this.sizeAndRender()
-  }
-
-  disconnectedCallback() {
-    window.removeEventListener('resize', this._resizeListener)
   }
 
   resizeListener() {
@@ -22,6 +19,10 @@ window.customElements.define('full-width-iframe', class extends HTMLElement {
 
   sizeAndRender() {
     this.calcDimensions()
+
+    const iFrame = this.querySelector('iframe')
+    if (iFrame && iFrame.getAttribute('width') === String(this.width)) return;
+
     this.render()
   }
 
@@ -31,7 +32,7 @@ window.customElements.define('full-width-iframe', class extends HTMLElement {
     const { width } = this.parentElement.getBoundingClientRect()
 
     this.width = width
-    this.height = width / this.ratio
+    this.height = Math.round(width / this.ratio)
   }
 
   render() {
@@ -61,4 +62,4 @@ window.customElements.define('full-width-iframe', class extends HTMLElement {
   get src() {
     return this.getAttribute('src')
   }
-})
+}
