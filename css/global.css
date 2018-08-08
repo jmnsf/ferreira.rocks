@@ -138,6 +138,15 @@ body {
   font-weight: 600;
 }
 
+.content .is-size-6 {
+  font-weight: 600;
+}
+
+pre {
+  font-family: 'Source Code Pro', Consolas, 'Menlo Regular', Monospace;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 4rem;
