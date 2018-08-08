@@ -18,19 +18,20 @@ html:hover {
 }
 
 ::selection {
-  background-color: #C02942;
+  background-color: #edabb6;
 }
 
 ::-moz-selection {
-  background-color: #C02942;
+  background-color: #edabb6;
 }
 
 /* Navbar defaults */
 
 .navbar {
   background-color: hsl(0, 0%, 94%);
-  font-family: 'Vollkorn SC', Garamond, Serif;
+  font-family: 'Cabin', Garamond, Serif;
   font-weight: 600;
+  font-size: 1rem;
 }
 
 .navbar .navbar-center { position: relative; }
@@ -74,7 +75,7 @@ a.navbar-item:hover, .navbar-link:hover {
 }
 
 main a, footer a { color: rgb(192, 41, 66); }
-main a:visited { color: rgb(83, 119, 122); }
+main a:visited, main .title a, main .title a:hover { color: rgb(83, 119, 122); }
 main a:hover, footer a:hover { color: rgb(217, 91, 67); }
 
 /* Footer defaults */
@@ -104,24 +105,46 @@ footer:target a {
   animation: link-glow 1s;
 }
 
-.text {
-  max-width: 33em;
-}
-
 body {
-  font-family: 'Roboto Condensed', Verdana, sans-serif;
-  font-size: 1.25rem;
+  font-family: 'Vollkorn', Garamond, Georgia, Serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 @media (max-width: 384px) {
   body { font-size: 1rem; }
 }
 
+.text {
+  max-width: 33em;
+}
+
 .title {
-  font-family: 'Vollkorn SC', Garamond, serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: 'Cabin', Helvetica, Arial, sans-serif;
+}
+
+.title.is-massive {
   font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.title.is-size-2 {
+  font-family: 'Vollkorn', Garamond, Georgia, Serif;
+  font-weight: 900;
+}
+
+.content .is-size-3 {
+  font-weight: 600;
+}
+
+.content .is-size-6 {
+  font-weight: 600;
+}
+
+pre, code {
+  font-family: 'Source Code Pro', Consolas, 'Menlo Regular', Monospace;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
