@@ -18,11 +18,11 @@ html:hover {
 }
 
 ::selection {
-  background-color: #C02942;
+  background-color: #edabb6;
 }
 
 ::-moz-selection {
-  background-color: #C02942;
+  background-color: #edabb6;
 }
 
 /* Navbar defaults */
@@ -142,7 +142,7 @@ body {
   font-weight: 600;
 }
 
-pre {
+pre, code {
   font-family: 'Source Code Pro', Consolas, 'Menlo Regular', Monospace;
   font-weight: 500;
 }
