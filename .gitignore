@@ -4,3 +4,11 @@ images/**/*.jpg
 images/**/*.png
 /node_modules
 dist
+
+# Terraform temp and state
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+
+# GCP auth file
+devops/FerreiraRocks-542aab0986e4.json
