@@ -3,7 +3,7 @@ resource "google_compute_instance" "vm_instance" {
   machine_type = "f1-micro"
   zone         = var.gcp_zone
 
-  deletion_protection = true
+  deletion_protection = false
 
   boot_disk {
     auto_delete = false
@@ -53,4 +53,91 @@ resource "google_compute_instance" "vm_instance" {
 
   sudo usermod -aG docker $USER
   EOT
+
+  provisioner "file" {
+    source      = var.gcp_service_account
+    destination = "~/"
+  }
+}
+
+resource "google_compute_firewall" "default_allow_icmp" {
+  name        = "default-allow-icmp"
+  network     = google_compute_network.default.self_link
+  description = "Allow ICMP from anywhere"
+  priority    = 65534
+
+  allow {
+    ports    = []
+    protocol = "icmp"
+  }
+}
+
+resource "google_compute_firewall" "default_allow_internal" {
+  name        = "default-allow-internal"
+  network     = google_compute_network.default.self_link
+  description = "Allow internal traffic on the default network"
+  priority    = 65534
+
+  source_ranges = [
+    "10.128.0.0/9",
+  ]
+
+  allow {
+    ports = [
+      "0-65535",
+    ]
+    protocol = "tcp"
+  }
+
+  allow {
+    ports = [
+      "0-65535",
+    ]
+    protocol = "udp"
+  }
+
+  allow {
+    ports    = []
+    protocol = "icmp"
+  }
+}
+
+resource "google_compute_firewall" "default_allow_rdp" {
+  name        = "default-allow-rdp"
+  network     = google_compute_network.default.self_link
+  description = "Allow RDP from anywhere"
+  priority    = 65534
+
+  allow {
+    ports = [
+      "3389",
+    ]
+    protocol = "tcp"
+  }
+}
+
+resource "google_compute_firewall" "default_allow_ssh" {
+  name        = "default-allow-ssh"
+  network     = google_compute_network.default.self_link
+  description = "Allow SSH from anywhere"
+  priority    = 65534
+
+  allow {
+    ports = [
+      "22",
+    ]
+    protocol = "tcp"
+  }
+}
+
+resource "google_compute_firewall" "allow_http" {
+  name    = "allow-http"
+  network = google_compute_network.default.self_link
+
+  allow {
+    ports = [
+      "80"
+    ]
+    protocol = "tcp"
+  }
 }

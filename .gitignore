@@ -27,5 +27,7 @@ node_modules
 terraform.tfstate
 terraform.tfstate.backup
 
-# GCP auth file
+# GCP auth files
 devops/FerreiraRocks-542aab0986e4.json
+devops/constant-cursor-295616-ferreira-rocks-prod-f9bc92a2b178.json
+devops/.terraform.lock.hcl

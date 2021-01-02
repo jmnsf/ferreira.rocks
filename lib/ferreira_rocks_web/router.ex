@@ -20,7 +20,7 @@ defmodule FerreiraRocksWeb.Router do
     get "/", LegacyPageController, :index
     get "/:page", LegacyPageController, :show
 
-    live "/", PageLive, :index
+    # live "/", PageLive, :index
   end
 
   # Other scopes may use custom stacks.

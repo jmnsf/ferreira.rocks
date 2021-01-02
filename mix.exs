@@ -4,11 +4,12 @@ defmodule FerreiraRocks.MixProject do
   def project do
     [
       app: :ferreira_rocks,
-      version: "1.0.0",
+      version: "1.0.7",
       elixir: "~> 1.10",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
+      releases: releases(),
       aliases: aliases(),
       deps: deps()
     ]
@@ -20,7 +21,8 @@ defmodule FerreiraRocks.MixProject do
   def application do
     [
       mod: {FerreiraRocks.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools],
+      included_applications: [:mnesia]
     ]
   end
 
@@ -61,6 +63,14 @@ defmodule FerreiraRocks.MixProject do
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
       "ecto.reset": ["ecto.drop", "ecto.setup"],
       test: ["ecto.create --quiet", "ecto.migrate --quiet", "test"]
+    ]
+  end
+
+  defp releases do
+    [
+      ferreira_rocks: [
+        include_executables_for: [:unix]
+      ]
     ]
   end
 end
