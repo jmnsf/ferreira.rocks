@@ -1,0 +1,45 @@
+<main class="section">
+  <div class="container text">
+    <h1 class="title is-massive">Now</h1>
+
+    <div class="content">
+      <h2 class="title is-size-2">Lifestyle</h2>
+
+      <p>Working on a meditation habit. Currently trying to do each weekday after waking up, 10 minutes of Vipassana. A significant number of people I admire or look up to report that this activity provides them with the greatest tools for dealing with life &amp; its challenges, and some go so far as to say they wouldn&rsquo;t be where they are today if not for it. Anecdotal evidence, but definitely persuasive.</p>
+
+      <p>Trying to become a better writer, thinker, and to share more, by starting the <a href="/diary.html">Diary</a> section on this website.</p>
+    </div>
+
+    <div class="content">
+      <h2 class="title is-size-2">Photography</h2>
+
+      <p>Shooting mainly on film with a Canon A1 and loving it. Not knowing what&rsquo;s coming out after developing, taking time to think and frame an image, the blurry mess that sometimes comes out from manual focus, just add charm to the whole thing. And then those that come out so much better than I ever planned... 👌</p>
+
+      <p>Now, for when the light is tough or it&rsquo;s not practical to carry around a nearly 1kg camera, I&rsquo;ve recently gotten a <a href="http://consumer.huawei.com/au/phones/p10-plus/">fancy phone</a> with dual Leicas that takes some very nice shots as well.</p>
+
+      <p>You can check all that out on <a href="https://www.instagram.com/ferreira.rocks">Instagram</a> and <a href="https://ello.co/ferreira-rocks">ello</a>.</p>
+    </div>
+
+    <div class="content">
+      <h2 class="title is-size-2">Code</h2>
+
+      <p>Coding for <a href="https://conversio.com">Conversio</a>, on the back- and <span title="just no CSS please, as you may have gathered from this website">front</span>-end, trying to do marketing that&rsquo;s reliable, useful and not spammy.</p>
+
+      <p>Working on a React Native app for managing hashtags &amp; helping with posting on Instagram and other places. There&rsquo;s just nothing decent for this, at least for Android, so I&rsquo;m having a go at it. Nice excuse to learn React Native as well.</p>
+
+      <p><a href="https://github.com/jmnsf/ferreira.rocks">Coding</a> this website.</p>
+    </div>
+
+    <div class="content">
+      <h2 class="title is-size-2">Geography</h2>
+
+      <p>Belgrade, Serbia</p>
+    </div>
+
+    <div class="content">
+      <h2 class="title is-size-2">Now Page?</h2>
+
+      <p>A(nother) brilliant idea by <a href="https://sivers.org">Derek Sivers</a>. More info <a href="https://nownownow.com/about">here</a>.</p>
+    </div>
+  </div>
+</main>

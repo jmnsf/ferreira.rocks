@@ -15,6 +15,10 @@ variable "gcp_zone" {
   default = "us-east1-d"
 }
 
+variable "gcp_service_account" {
+  default = "devops/constant-cursor-295616-ferreira-rocks-prod-f9bc92a2b178.json"
+}
+
 variable "pub_key" {
   default = "~/.ssh/id_rsa.pub"
 }

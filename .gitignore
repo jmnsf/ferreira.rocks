@@ -1,14 +1,36 @@
+# Ignore LanguageServer state
+.elixir_ls
+
 .DS_Store
 *.sublime-workspace
 images/**/*.jpg
 images/**/*.png
-/node_modules
+
+# Ignore generated static assets
+priv/static/
+
+# Ignore local DB
+priv/repo/mnesia/
+
+# Ignore erlang files & releases
+_build
 dist
+
+# Ignore elixir dependencies
+deps
+
+# Ignore installed npm packages
+node_modules
 
 # Terraform temp and state
 .terraform
 terraform.tfstate
 terraform.tfstate.backup
 
-# GCP auth file
+# GCP auth files
 devops/FerreiraRocks-542aab0986e4.json
+devops/constant-cursor-295616-ferreira-rocks-prod-f9bc92a2b178.json
+devops/.terraform.lock.hcl
+
+# No secret configs
+config/*.secret.exs

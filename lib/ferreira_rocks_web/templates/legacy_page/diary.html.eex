@@ -1,0 +1,1138 @@
+<script defer phx-track-static type="text/javascript" src="<%= Routes.static_path(@conn, "/js/diary.js") %>"></script>
+
+<main class="section">
+  <template id="full-width-iframe">
+    <iframe
+      width=""
+      height=""
+      src=""
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+    ></iframe>
+  </template>
+
+  <div class="container text">
+    <h1 class="title is-massive">Diary</h1>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="17-influence-the-psychology-of-persuasion">
+        <a href="#17-influence-the-psychology-of-persuasion">Influence: The Psychology of Persuasion, Robert Cialdini</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>[...] studies done on the contrast principle at Arizona State and Montana State universities suggest that we may be less satisfied with the physical attractiveness of our own lovers because of the way the popular media bombard us with examples of unrealistically attractive models.</p>
+
+          <p>The obligation to receive reduces our ability to choose whom we wish to be indebted to and puts that power in the hands of others.</p>
+
+          <p>Since, as we have already seen, the rule allows one person to choose the nature of the indebting first favor and the nature of the debt-cancelling return favor, we could easily be manipulated into an unfair exchange by those who might wish to exploit the rule.</p>
+
+          <p>Most of us find it highly disagreeable to be set in a state of obligation.</p>
+
+          <p>It seems that the rejection-then-retreat tactic spurs people not only to agree to a desired request but actually to carry out the request and, finally, to volunteer to perform further requests.</p>
+
+          <p>A person who feels responsible for the terms of a contract will be more likely to live up to that contract.</p>
+
+          <p>As long as we perceive and define his action as a compliance device instead of a favor, he no longer has the reciprocation rule as an ally.</p>
+
+          <p>Once we have made a choice or taken a stand, we will encounter personal and interpersonal pressures to behave consistently with that commitment.</p>
+
+          <p>The drive to be (and look) consistent constitutes a highly potent weapon of social influence, often causing us to act in ways that are clearly contrary to our own best interests.</p>
+
+          <p>There are certain disturbing things we simply would rather not realize.</p>
+
+          <p>Once a stand is taken, there is a natural tendency to behave in ways that are stubbornly consistent with the stand.</p>
+
+          <p>Because they had innocently complied with a trivial safe-driving request a couple of weeks before, these homeowners became remarkably willing to comply with another sych request that was massive in size.</p>
+
+          <p>[...] be very careful about agreeing to trivial requests.</p>
+
+          <p>[...] once a person&rsquo;s self-image is altered, all sorts of subtle advantages become available to someone who wants to exploit that new image.</p>
+
+          <p>His behavior tells him about himself; it is a primary source of information about his beliefs and values and attitudes.</p>
+
+          <p>People have a natural tendency to think that a statement reflects the true attitude of the person who made it. What is surprising is that they continue to think so even when they know that the person did not freely choose to make the statement.</p>
+
+          <p>[...] what those around us think is true of us is enormously important in determining what we ourselves think is true.</p>
+
+          <p>Public commitments tend to be lasting commitments.</p>
+
+          <p>[...] commitments are most effective in changing a person&rsquo;s self-image and future behavior when they are active, public, and effortful.</p>
+
+          <p>It occurs right in the pit of our stomachs when we realize we are trapped into complying with a request we know we don&rsquo;t want to perform.</p>
+
+          <p>Where all think alike, no one thinks very much.</p>
+
+          <p>In general, when we are unsure of ourselves, when the situation is unclear or ambiguous, when uncertainty reigns, we are most likely to look to and accept the actions of others as correct.</p>
+
+          <p>So with everyone thinking that someone else will help or has helped, no one does.</p>
+
+          <p>What is easy to forget, though, is that everybody else observing the event is likely to be looking for social evidence, too. And because we all prefer to appear poised and unflustered among others, we are likely to search for that evidency placidly, with  brief, camouflaged glances at those around us. Therefore everyone is likely to see everyone else looking unruffled and failing to act. As a result, and by the principle of social proof, the event will be roundly interpreted as a nonemergency.</p>
+
+          <p>Without question, when people are uncertain, they are more likely to use others&rsquo; actions to decide how they themselves should act.</p>
+
+          <p>The principle of social proof operates most powerfully when we are observing the behavior of people just like us.</p>
+
+          <p>For example, it has been shown that immediately following certain kinds of highly pubilcized sucicide stories, the number of people who die in commercial-airline crashes increases by 1000%! Even more alarming: The increase is not limited to airplane deaths. The number of automobile fatalities shoots up as well.</p>
+
+          <p>Evidently the principle of social proof is so wide-ranging and powerful that its domain extends to the fundamental decision for life or death.</p>
+
+          <p>Thus the most influential leaders are those who know how to arrange group conditions to allow the principle of social proof to work maximally in their favor.</p>
+
+          <p>Simply get some members moving in the desired direction and the others &mdash; responding not so much to the lead animal as to those immediately surrounding them &mdash; will peacefully and mechanically go along.</p>
+
+          <p>[...] we seem to assume that if a lot of people are doing the same thing, they must know something we don&rsquo;t.</p>
+
+          <p>A halo effect occurs when one positive characteristic of a person dominates the way that person is viewed by others. And the evidence is now clear that physical attractiveness is often such a characteristic.</p>
+
+          <p>Other experiments have demonstrated that attractive people are more likely to obtain help when in need and are more persuasive in changing the opinions of an audience.</p>
+
+          <p>The information that someone fancies us can be a bewitchingly effective device for producing return liking and willing compliance.</p>
+
+          <p>Conjoint efforts towards commong goals steadily bridged the rancorous rift between the groups.</p>
+
+          <p>An innocent association with either bad things or good things will influence how people feel about us.</p>
+
+          <p>[...] it is not when we have a strong feeling of recognized personal accomplishment that we will seek to bask in reflected glory.</p>
+
+          <p>Our vigilance whould be directed not toward the things that may produce undue liking for a compliance practitioner, but toward the fact that undue liking has been produced.</p>
+
+          <p>That&rsquo;s why it is so important to be alert to a sense of undue liking for a compliance practitioner. The recognition of that feeling can serve as our reminder to separate the dealer from the merits of the deal and to make our decision based on considerations related only to the latter.</p>
+
+          <p>"It is the extreme willingness of adults to go to almost any lengths on the command of an authority that constitutes the chief finding of the study."</p>
+
+          <p>[...] we are often as vulnerable to the symbols of authority as to the substance.</p>
+
+          <p>Finely styled and expensive clothes carry aura of status and position, as do trappings such as jewelry and cars.</p>
+
+          <p>[...] what is obvious often doesn&rsquo;t matter unless we pay specific attention to it?</p>
+
+          <p>By wondering how an expert stands to benefit from our compliance, we give ourselves another safety net against undue and automatic influence.</p>
+
+          <p>[...] the fact that the news carrying the scarcity of information was itself scarce made it especially persuasive.</p>
+
+          <p>When it comes to freedoms, it is more dangerous to have given for a while than never to have given at all.</p>
+
+          <p>[...] parents who enforce discipline inconsistently produce generally rebellious children.</p>
+
+          <p>Not only do we want the same item more when it is scarce, we want it most when we are in competition for it.</p>
+
+          <p>The ardor of an indifferent lover surges with the appearance of a rival.</p>
+
+          <p>The joy is not in experiencing a scarce commodity but in possessing it.</p>
+
+          <p>As soon as we feel the tide of emotional arousal that flows from scarcity influences, we shoud use that [...] as a signal to stop short.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-10-29">October 29th, 2018</time> from Lecce, Italy.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="16-the-black-swan">
+        <a href="#16-the-black-swan">The Black Swan, Nassim Nicholas Taleb</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>Isn&rsquo;t it strange to see an event happening precisely because it was not supposed to happen? What kind of defense do we have against that?</p>
+
+          <p>The more unexpected the success of such a venture, the smaller the number of competitors, and the more successful the entrepeneur who implements the idea.</p>
+
+          <p>What you know cannot really hurt you.</p>
+
+          <p>[...] tinker as much as possible and try to collect as many Black Swan opportunities as you can.</p>
+
+          <p>We do not spontaneously learn that we don&rsquo;t learn that we don&rsquo;t learn.</p>
+
+          <p>History doesn&rsquo;t crawl; it jumps.</p>
+
+          <p>It is one thing to be cosmetically defiant of authority by wearing unconvetional clothes &mdash; what social scientists and economists call &ldquo;cheap signaling&rdquo; &mdash; and another to prove willingness to translate belief into action.</p>
+
+          <p>You can afford to be compassionate, lax and courteous if, once in a while, when it is least expected of you, but completely justified, you sue someone, or savage an enemy, just to show that you can walk the walk.</p>
+
+          <p>[...] almost all those who cared seemed convinced that they understood what was going on.</p>
+
+          <p>To be genuinely empirical is to reflect reality as faithfully as possible; to be honorable implies not fearing the appearance and consequences of being outlandish.</p>
+
+          <p>There is more money in designing a shoe than in actually making it.</p>
+
+          <p>In Extremistan, inequalities are such that one single observation can disproportionaltely impact the aggregate, or the total.</p>
+
+          <p>[...] we all become stingy and calculating when our wealth grows and we start taking money seriously.</p>
+
+          <p>[...] all I care about is making a decision without being the turkey.</p>
+
+          <p>We react to a piece of information not on its logical merit, but on the basis of which framework surrounds it, and how it registers with our social-emotional system.</p>
+
+          <p>[...] look at the number of people who, after riding the escalator for a couple of floors, head directly to the StairMasters.</p>
+
+          <p>It takes considerable effort to see facts (and remember them) while withholding judgment and resisting explanations.</p>
+
+          <p>A higher concentration of dopamine appears to lower skepticism and result in greater vulnerability to pattern detection.</p>
+
+          <p>&ldquo;One death is a tragedy; a million is a statistic.&rdquo;</p>
+
+          <p>The way to avoid the ills of the narrative fallacy is to favor esperimentation over storytelling, experience over history, and clinical knowledge over theories.</p>
+
+          <p>We are social animals; hell is other people.</p>
+
+          <p>[...] modern reallity rarely gives us the privilege of a satisfying, linear, positive progression.</p>
+
+          <p>It is my great hope someday to see sience and decision makers rediscover what the ancients have always known, namely that our highest currency is respect.</p>
+
+          <p>[...] your happiness depends far more on the number of instances of positive feelings, what psychologists call &ldquo;positive affect&rdquo;, than on their intensity.</p>
+
+          <p>If you engage in a Black Swan-dependent activity, it is better to be a part of a group.</p>
+
+          <p>Humans will believe anything you say provided you do not exhibit the smallest shadow of diffidence.</p>
+
+          <p>We see the obvious and visible consequences, not the invisible and less obvious ones.</p>
+
+          <p>[...] we generally take risks not out of bravado but out of ignorance and blindness to probability!</p>
+
+          <p>[...] the attributes of the uncertainty we face in real life have little connection to the sterilized ones we encounter in exams and games.</p>
+
+          <p>The casino spent hundreds of millions of dollars on gambling theory and high-tech surveillance while the bulk of their risks came from outside their models.</p>
+
+          <p>We love the tangible, the confirmation, the palpable, the real, the visible, the concrete, the known, the seen, the vivid, the visual, the social, the embedded, the emotionally laden, the salient, the stereotypical, the moving, the theatrical, the romanced, the cosmetic, the official, the scholarly-sounding verbiage (bullshit), the pompous Gaussian economist, the mathematicized crap, the pomp, the moving discourse, and the lurid. Most of all we favor the narrated.</p>
+
+          <p>[...] shut down the television set, minimize time spent reading newspapers, ignore the blogs.</p>
+
+          <p>Prediction, not narration, is the real test of our understanding of the world.</p>
+
+          <p>[...] we are demonstrably arrogant about what we think we know.</p>
+
+          <p>Epistemic arrogance bears a double effect: we overestimate what we know, and underestimate uncertainty.</p>
+
+          <p>The more information you give someone, the more hypotheses they will formulate along the way, and the worse off they will be. They see more random noise and mistake it for information.</p>
+
+          <p>No matter what anyone tells you, it is a good idea to question the error rate of an expert&rsquo;s procedure.</p>
+
+          <p>[...] things that move, and therefore require knowledge, do not usually have experts, while things that don&rsquo;t move seem to have some experts.</p>
+
+          <p>The problem with experts is that they do not know what they do not know.</p>
+
+          <p>What matters is not how often you are right, but how large your cumulative errors are.</p>
+
+          <p>[...] those who had a big reputation were worse predictors than those who had none.</p>
+
+          <p>[...] we are too narrow-minded a species to consider the possibility of events straying from our mental projections.</p>
+
+          <p>[...] the accuracy in your forecast matters far more than the forecast itself.</p>
+
+          <p>We do not realize the full extent of the difference between near and far futures.</p>
+
+          <p>Anyone who causes harm by forecasting should be treated as either a fool or a liar.</p>
+
+          <p>[...] almost everything of the moment is the product of serendipity.</p>
+
+          <p>Engineers tend to develop tools for the pleasure of developing tools, not to induce nature to yield its secrets.</p>
+
+          <p>In order to predict historical events you need to predict technological innovation, itself fundamentally unpredictable.</p>
+
+          <p>As individuals we should love free markets because operators in them can be as incompetent as they wish.</p>
+
+          <p>We project a straight line only because we have a linear model in our head &mdash; the fact that a number has risen for 1000 days straight should make you more confident that it will rise in the future. But if you have a nonlinear model in your head, it might confirm that the number should decline on day 1001.</p>
+
+          <p>&ldquo;R-square&rdquo; is unfit for Extremistan; it is only good for academic promotion.</p>
+
+          <p>It has been more profitable for us to bind together in the wrong direction than to be alone in the right one.</p>
+
+          <p>You think that the loss of your fortune or current position will be devastating, but you are probably wrong.</p>
+
+          <p>Randomness, in the end, is just unknowledge. The world is opaque and appearances fool us.</p>
+
+          <p>[...] judgments are embedded in the way we view objects.</p>
+
+          <p>We forget to philosophize when under strain.</p>
+
+          <p>[...] you should avoid unnecessary dependence on large-scale harmful predictions.</p>
+
+          <p>&ldquo;You need to love to lose&rdquo;</p>
+
+          <p>People are often ashamed of losses, so they engage in strategies that produce very little volatility but contain the risk of a large loss.</p>
+
+          <p>Seize any opportunity, or anything that looks like opportunity.</p>
+
+          <p>[...] positive Black Swans have a necessary first step; you need to be exposed to them.</p>
+
+          <p>Go to parties!</p>
+
+          <p>No one in particular is a good predictor of anything. Sorry.</p>
+
+          <p>Put yourself in situations where favorable consequences are much larger than unfavorable ones.</p>
+
+          <p>[...] in order to make a decision you need to focus on the consequences (which you can know) rather than the probability (which you can&rsquo;t know).</p>
+
+          <p>Take a cross section of the dominant corporations at any particular time; many of them will be out of business a few decades later.</p>
+
+          <p>The long tail implies that the small guys, collectively, should control a large segment of culture and commerce, thanks to the niches and subspecialties that can now survive thanks to the internet.</p>
+
+          <p>The increased concentration among banks seems to have the effect of making financial crisis less likely, but when they happen they are more global in scale and hit us very hard.</p>
+
+          <p>In the end it is those who derive consequences and seize the importance of the ideas, seeing their real value, who win the day.</p>
+
+          <p>A gray swan concerns modelable extreme events, a black swan is about unknown unknowns.</p>
+
+          <p>[...] science is about how not to be a sucker.</p>
+
+          <p>Just keep your composure, smile, focus on analyzing the speaker not the message, and you&rsquo;ll win the argument. An ad hominem attack against an intellectual, not against an idea, is highly flattering. It indicates that the person does not have anything intelligent to say about your message.</p>
+
+          <p>I much prefer a sophisticated craft, focused on tricks, to a failed science looking for certainties.</p>
+
+          <p>People can&rsquo;t predict how long they will be happy with recently acquired objects, how long their marriages will last, how their new jobs will turn out, yet it&rsquo;s subatomic particles that they cite as &ldquo;limits of prediction&rdquo;.</p>
+
+          <p>They doubt their own senses, but not for a second do they doubt their automatic purchases in the stock market.</p>
+
+          <p>Genuine philosophical problems are always rooted outside philosophy and they die if these roots decay.</p>
+
+          <p>In the end this is a trivial decision making rule: I am very agressive when I can gain exposure to positive Black Swans &mdash; when a failure would be of small moment &mdash; and very conservative when I am under threat from a negative Black Swan.</p>
+
+          <p>Missing a train is only painful if you run after it! Likewise, not matching the idea of success others expect from you is only painful if that&rsquo;s what you are seeking.</p>
+
+          <p>I am sometimes taken aback by how people can have a miserable day and get angry because they feel cheated by a bad meal, cold coffee, a social rebuff, or a rude reception.</p>
+
+          <p>We are quick to forget that just being alive is an extraordinary piece of good luck, a remote event, a chance ocurrence of monstrous proportions.</p>
+
+          <p>Second-rateness had charm, Yevgenia thought, and she had always preferred charm over beauty.</p>
+
+          <p>[...] discussions are vastly more powerful than just correspondence. People say things in person they would never put in print.</p>
+
+          <p>The same idea applies to debt &mdash; it makes you fragile, very fragile under perturbations, particularly when we switch from the assumption of Mediocristan to that of Extremistan.</p>
+
+          <p>Debt implies a strong statement about the future, and a high degree of reliance on forecasts.</p>
+
+          <p>So if we used <em>measuring</em> for the table, and <em>forecasting</em> for risk, we would have fewer turkeys blowing up from Black Swans.</p>
+
+          <p>The corollary is obvious: since there is nothing new about the crisis of 2008, we will not learn from it and we will make the same mistake in the future.</p>
+
+          <p>When you walk the walk, whether successful or not, you feel more indifferent and robust to people&rsquo;s opinion, freer, more real.</p>
+
+          <p>[...] evolution does not work by teaching, but by destroying.</p>
+
+          <p>It is hard for a newly enlightened pig to recall that he has seen a pearl in the past but did not know what it was.</p>
+
+          <p>[...] a Black Swan for the turkey is not a Black Swan for the butcher.</p>
+
+          <p>My results were that regular events can predict regular events, but that extreme events, perhaps because they are more acute when people are unprepared, are almost never predicted from narrow reliance on the past.</p>
+
+          <p>Once you start examining the payoff, the result of decisions, you will see clearly that the consequences of some errors may be benign, those of others may be severe.</p>
+
+          <p>Consider that the frequency of rare events cannot be estimated from empirical observation for the very reason that they are rare.</p>
+
+          <p>[...] things have a bias to appear more stable and less risky in the past, leading us to surprises.</p>
+
+          <p>There is no reliable way to compute small probabilities.</p>
+
+          <p>It is much more sound to take risks you can measure that to measure the risks you are taking.</p>
+
+          <p>[...] success consists mainly in avoiding losses, not trying to derive profits.</p>
+
+          <p>[...] to philosophize is to learn how to die.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-10-28">October 28th, 2018</time> from Lecce, Italy.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="15-lecce">
+        <a href="#15-lecce">Lecce, Puglia, Italy</a>
+      </h2>
+
+      <section class="content">
+        <img src="<%= Routes.static_path(@conn, "/images/diary/IMG_20181013_093239.jpg") %>" />
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-10-18">October 18th, 2018</time> from Lecce, Italy.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="14-meditations">
+        <a href="#14-meditations">Meditations, Marcus Aurelius Antoninus</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>The faults of our fellows are so numerous and so easy to cure that one is readily tempted to become the physician, while our own faults are so few and so unimportant that it is hardly worth while to give any attention to them.</p>
+
+          <p>I have often wondered how it is that every man loves himself more than all the rest of men, and yet sets less value on his own opinion of himself than on the opinion of others.</p>
+
+          <p>[...] but a man&rsquo;s true greatness lies in the consciousness of an honest purpose in life, founded on a just estimate of himself and everything else, on frequent self-examination, and a steady obedience to the rule which he knows to be right, without troubling himself, as the emperor says he should not, about what others may think or say, or whether they do or do not do that which he thinks and says and does.</p>
+
+          <p>[...] he was able to abstain from, and to enjoy, those things which many are too weak to abstain from, and cannot enjoy without excess.</p>
+
+          <p>Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial. All these things happen to them by reason of their ignorance of what is good and evil.</p>
+
+          <p>But cast away the thirst after books, that thou mayest not die murmuring, but cheerfully, truly, and from thy heart thankful to the gods.</p>
+
+          <p>[...] a limit of time is fixed for thee, which thou dost not use for clearing away the clouds from thy mind, it will go and thou wilt go, and it will never return.</p>
+
+          <p>[...] those who do not observe the movements of their own minds must of necessity be unhappy.</p>
+
+          <p>For the present is the only thing of which a man can be deprived, if it is true that this is the only thing which he has, and that man cannot lose a thing if he has it not.</p>
+
+          <p>For to be vexed at anyhthing which happens is a separation of ourselves from nature [...]</p>
+
+          <p>But this consists in keeping the daemon within a man free from violence and unharmed, superior to pains and pleasures, doing nothing without a purpose, not yet falsely and with hypocrisy, not feeling the need of another man&rsquo;s doing or not doing anything.</p>
+
+          <p>[...] and many such things will present themselves, not pleasing to every man, but to him only who has become truly familiar with Nature and her works.</p>
+
+          <p>We ought then to check in the series of our thoughts everything that is without a purpose and useless, but most of all the over-curious feeling and the malignant.</p>
+
+          <p>A man then must stand erect, not be kept erect by others.</p>
+
+          <p>Reverence the faculty which produces opinion.</p>
+
+          <p>Hasten then to the end which thou hast before thee, and, throwing away idle hopes come to thy own aid, if thou carest at all for thyself, while it is in thy power.</p>
+
+          <p>[...] and soon not even your names will be left behind.</p>
+
+          <p>[...] he is poor, who has need of another, and has not from himself all things which are useful for life.</p>
+
+          <p>For all things soon pass away and become a mere tale, and complete oblivion soon buries them.</p>
+
+          <p>Thou art a little soul bearing about a corpse</p>
+
+          <p>[...] always observe how ephemeral and worthless human things are [...]</p>
+
+          <p>Nature has fixed bounds to this too: she has fixed bounds to eating and drinking, and yet thou goest beyond these bounds, beyond what is sufficient; yet in thy acts it is not so, but thou stoppest short of what thou canst do.</p>
+
+          <p>Things themselves touch not the soul, not in the least degree; nor have they admission to the soul, nor can they turn or move the soul: but the soul turns and moves itself alone [...]</p>
+
+          <p>[...] that which is an obstacle on the road helps us on this road.</p>
+
+          <p>[...] when thou art most sure that thou art employed about things worth thy pains, it is then that it cheats thee most.</p>
+
+          <p>For of necessity thou must be envious, jealous and suspicious of those who can take away those things, and plot against those who have that which is valued by thee.</p>
+
+          <p>[...] let us overlook many things in those who are like antagonists in the gymnasium. For it is in our power, as I said, to get out of the way, and to have no suspicion nor hatred.</p>
+
+          <p>Near is thy forgetfulness of all things; and near the forgetfulness of thee by all.</p>
+
+          <p>[...] pain is neither intolerable nor everlasting, if thou bearest in mind that it has its limits, and if thou addest nothing to it in imagination.</p>
+
+          <p>[...] it is very possible to be a divine man and to be recognized as such by no one.</p>
+
+          <p>[Consider] that men will do the same things nevertheless, even though thou shouldst burst.</p>
+
+          <p>Whatever man thou meetest with, immediately say to thyself: What opinions has this man about good and bad?</p>
+
+          <p>If thou canst see sharp, look and judge wisely.</p>
+
+          <p>If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgement about it.</p>
+
+          <p>He who fears death either fears the loss of sensation or a different kind of sensation. But if thou shalt have no sensation, neither wilt thou feel any harm; and if thou shalt acquire another kind of sensation, thou wilt be a different kind of living being, and thou wilt not cease to live.</p>
+
+          <p>Wipe out imagination: check desire: extinguish appetite: keep the ruling faculty in its own power.</p>
+
+          <p>Short is the little which remains to thee of life.</p>
+
+          <p>Nothing is more disgraceful than a wolfish friendship.</p>
+
+          <p>[...] thou must equally avoid flattering men and being vexed at them, for both are unsocial and lead to harm.</p>
+
+          <p>For there is no veil over a star.</p>
+
+          <p>Practice thyself even in the things which thou despairest of accomplishing.</p>
+
+          <p>[...] everything is opinion.</p>
+
+          <p>If it is not right, do not do it: if it is not true, do not say it.</p>
+
+          <p>First, do nothing inconsiderately, nor without a purpose. Second, make thy acts refer to nothing else than to a social end.</p>
+
+          <p>[...] every man lives the present time only, and loses only this.</p>
+
+          <p>It was not his fashion to waste his time on what man cannot understand.</p>
+
+          <p>We cannot conceive how the order of the universe is maintained: we cannot even conceive how our own life from day to day is continued, nor how we perform the simplest movements of the body, nor how we grow and thing and act, though we know many of the conditions which are necessary for all these functions.</p>
+
+          <p>&ldquo;a manner of speaking not loose and undeterminate, but clear and distinct, strictly just and true.&rdquo;</p>
+
+          <p>Many men thing that they are seeking happiness when they are only seeking the gratification of some particular passion, the strongest that they have.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-10-18">October 18th, 2018</time> from Lecce, Italy.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="title is-size-2 diary-title" id="13-new-fonts">
+        <a href="#13-new-fonts">New Fonts &amp; Styles</a>
+      </h2>
+
+      <section class="content">
+        <p>Decided to do a revamp of the styles here for readability. Some smaller font sizes throughout now, and there&rsquo;s a serif font in the main text instead of the previous sans-serif (I went for Vollkorn).</p>
+
+        <p>Also a new font for code because Courier is a little terrible:</p>
+
+        <h6 class="is-size-6">Source Code Pro @ 500</h6>
+        <pre>
+const factorial = n => {
+if (n <= 0) return 1
+return factorial(n - 1)
+}
+
+factorial(5) // 120</pre>
+
+        <p>vs:</p>
+        <h6 class="is-size-6">Courier @ 400</h6>
+        <pre style="font-family: Courier; font-weight: inherit;">
+const factorial = n => {
+if (n <= 0) return 1
+return factorial(n - 1)
+}
+
+factorial(5) // 120</pre>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-08-08">August 8th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="title is-size-2 diary-title" id="12-learning-web-components">
+        <a href="#12-learning-web-components">Learning Web Components</a>
+      </h2>
+
+      <section class="content">
+        <p>I&rsquo;ve been curious about Web Components since I first heard about them at JSDay and I&rsquo;ve finally fabricated an oportunity to dip my toes on that a little bit.</p>
+
+        <p>The embedded Vimeo and YouTube videos on this page were an annoyance from the start because although everything&rsquo;s responsive here via CSS, the <code>iframe</code> tag takes its size through HTML attributes. In short, this means the width was hardcoded to some arbitrary number that took no account of the screen size.</p>
+
+        <p>Changing this meant JavaScript, and so I decided to write a Custom Component for it instead of doing DOM manipulation. After trying to figure out how it all worked and an initial implementation in <a href="https://www.polymer-project.org/">Polymer</a>, it came out <a href="https://github.com/jmnsf/ferreira.rocks/pull/2">quite nicely</a>: the videos are now full-width and also resize when the window size changes.</p>
+
+        <p>It&rsquo;s barebones, only uses Custom Components with a <code>template</code> element, but works! Sort of. You can&rsquo;t full-screen now because it&rsquo;ll act as a re-size and reload the iframe 🤦‍♂️. Something to fix another day.</p>
+
+        <h3 class="is-size-3">
+          Current Status of Web Components
+        </h3>
+
+        <p>Not too clear... There was a ton of contention between the different browser vendors on how the spec should look like, so it&rsquo;s taken ages to get anywhere. Haven&rsquo;t been able to find much info on this yet, but a recent <a href="https://www.polymer-project.org/blog/2018-05-02-roadmap-update.html">post</a> in the Polymer blog suggests that agreement is near, at least for a few features.</p>
+
+        <p>An interesting development is that Mozilla have been sucessful in pushing for the removal of HTML Imports, in favor of using the existing ES Modules system for importing components. A new spec is being worked on to integrate those.</p>
+
+        <h3 class="is-size-3">
+          Photos
+        </h3>
+
+        <p>I&rsquo;ve gone ahead and removed the Photos section as well. It&rsquo;s out of date and not working too well (read: it&rsquo;s heavy as fuck) so it&rsquo;s gone. More opportunity to do some other components 😊.</p>
+
+        <hr>
+
+        <h3 class="is-size-3">
+          Resources
+        </h3>
+
+        <p>There's a succint <a href="https://developers.google.com/web/fundamentals/web-components/customelements">guide</a> by Google that was a huge guide to get this working.</p>
+
+        <p>Mozilla also have a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements">guide</a> for Custom Components that&rsquo;s not as terse as Google&rsquo;s.</p>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-08-05">August 5th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="11-mans-search-for-meaning">
+        <a href="#11-mans-search-for-meaning">Man&rsquo;s Search for Meaning, Viktor Frankl</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>The greatest task for any person is to find meaning in his or her life.</p>
+
+          <p>Emotion, which is suffering, ceases to be suffering as soon as we form a clear and precise picture of it.</p>
+
+          <p>There is nothing in the world, I venture to say, that would so effectively help one to survive even the worst conditions as the knowledge that there is a meaning to one&rsquo;s life.</p>
+
+          <p>What matters, therefore, is not the meaning of life in general but rather the specific meaning of a person&rsquo;s life at a given moment.</p>
+
+          <p>The more one forgets himself &mdash; by giving himself to a cause to serve or another person to love &mdash; the more human he is and the more he actualizes himself.</p>
+
+          <p>For the world is in a bad state, but everything will become still worse unless each of us does his best.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-07-26">July 26th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="10-dorcol-belgrade-serbia">
+        <a href="#10-dorcol-belgrade-serbia">Dorćol, Belgrade, Serbia</a>
+      </h2>
+
+      <section class="content">
+        <img src="<%= Routes.static_path(@conn, "/images/diary/000063.JPG") %>" />
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-07-25">July 25th, 2018</time> from Dorćol, Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="9-ego-is-the-enemy">
+        <a href="#9-ego-is-the-enemy">Ego is the Enemy, Ryan Holiday</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>Do not believe that he who seeks to comfort you lives untroubled among the simple and quiet words that sometimes do you good. His life has much difficulty and sadness and remains far behind yours. Were it otherwise he would never have been able to find those words.</p>
+
+          <p>There is no one moment that changes a person. There are many.</p>
+
+          <p>The first principle is that you must not fool yourself &mdash; and you are the easiest person to fool.</p>
+
+          <p>&ldquo;If you start believing in your greatness, it is the death of your creativity.&rdquo;</p>
+
+          <p>We can seek to rationalize the worst behaviour by pointing to outliers. But no one is truly successful because they are delusional, self-absorbed, or disconnected.</p>
+
+          <p>&ldquo;Be natural and yourself and this glittering flattery will be as the passing breeze of the sea on a warm summer day.&rdquo;</p>
+
+          <p>Detachment is a sort of natural ego antidote. It&rsquo;s easy to be emotionally invested and infatuated with your own work. Any and every narcissist can do that. What is rare is not raw talent, skill, or even confidence, but humility, dilligence and self-awareness.</p>
+
+          <p>In his famous 1934 campaign for the governorship of California, the author and activist Upton Sinclair took an unusual step. Before the election, he published a short book titled I, Governor of California and How I Ended Poverty, in which he outlined, in the past tense, the brilliant policies he had enacted as governor... the office he had not yet won.</p>
+
+          <p>It&rsquo;s a temptation that exists for everyone &mdash; for talk and hype to replace action.</p>
+
+          <p>[...] she did what a lot of us do when we&rsquo;re scared or overwhelmend by a project: she did everything but focus on it.</p>
+
+          <p>[...] many valuable endeavours we undertake are painfully difficult, whether it&rsquo;s coding a new startup or mastering a craft. But talking, talking is always easy.</p>
+
+          <p>Talk depletes us. Talking and doing fight for the same resources. Research shows that while goal visualization is important, after a certain point our mind begins to confuse it with actual progress. The same goes for verbalization. Even talking aloud to ourselves while we work through difficult problems has been shown to significantly decrease insight and breakthroughs. After spending so much time thinking, explaining, and talking about a task, we start to feel that we&rsquo;ve gotten closer to achieving it. Or worse, when things get tough, we feel we can toss the whole project aside because we&rsquo;ve given it our best try, although of course we haven&rsquo;t.</p>
+
+          <p>His primary means of effecting change was through the collection of pupils he mentored, protected, taught and inspired.</p>
+
+          <p>&ldquo;To be somebody or to do something. In life there is often a roll call. That&rsquo;s when you will have to make a decision.&rdquo;</p>
+
+          <p>&ldquo;To be or to do? Which way will you go?&rdquo;</p>
+
+          <p>&ldquo;A man is worked upon by what he works on.&rdquo;</p>
+
+          <p>The pretence of knowledge is our most dangerous vice, because it prevents us from getting any better. Studious self-assessment is the antidote.</p>
+
+          <p>[...] the ego that puffs us up, the fear that makes us doubt ourselves, and any laziness that might make us want to coast.</p>
+
+          <p>&ldquo;When student is ready, the teacher appears.</p>
+
+          <p>The reality: We hear what we want to hear. We do what we feel like doing, and despite being incredibly busy and working very hard, we accomplish very little. Or worse, find ourselves in a mess we never anticipated.</p>
+
+          <p>Purpose is about pursuing something outside yourself, as opposed to pleasuring yourself.</p>
+
+          <p>It&rsquo;s a common attitude that transcends generations and societies. The angry, unappreciated genius is forced to do stuff she doesn&rsquo;t like, for people she doesn&rsquo;t respect, as she makes her way in the world.</p>
+
+          <p>Greatness comes from humble beginnings; it comes from grunt work. It means you&rsquo;re the least important person in the room &mdash; until you change that with results.</p>
+
+          <p>Find what nobody else wants to do and do it.</p>
+
+          <p>[...] the person who clears the path ultimately controls its direction, just as the canvas shapes the painting.</p>
+
+          <p>A person who thinks all the time has nothing to think about except thoughts, so he loses touch with reality and lives in a world of illusions.</p>
+
+          <p>Out of the right speaker in you inner ear will come the endless stream of self-aggrandisement, the recitation of one&rsquo;s specialness, of how much more open and gifted and brilliant and knowing and misunderstood and humble one is. Out of the left speaker will be the rap songs of self-loathing, the lists of all the things one doesn&rsquo;t do well, of all the mistakes one has made today and over an entire lifetime, the doubt, the assertion that everything that one touches turns to shit, that one doesn&rsquo;t do relationships well, that one is in every way a fraud, incapable of selfless love, that one had no talent or insight and on and on and on.</p>
+
+          <p>There&rsquo;s no one to perform for. There is just work to be done and lessons to be learned, in all that is around us.</p>
+
+          <p>&ldquo;Vain men never hear anything but praise.&rdquo;</p>
+
+          <p>What we don&rsquo;t protect ourselves against are people and things that make us feel good &mdash; or rather, too good.</p>
+
+          <p>What am I avoiding, or running from, with my bluster, franticness, and embellishments?</p>
+
+          <p>Not work until you get your big break, not work until you make a name for yourself, but work, work, work, forever and ever.</p>
+
+          <p>Is it ten thousand hours or twenty thousand hours to mastery? The answer is that it doesn&rsquo;t matter. There is no end zone.</p>
+
+          <p>&ldquo;Blessed are those servants whom the master finds awake when he comes.&rdquo;</p>
+
+          <p>Make it so you don&rsquo;t have to fake it &mdash; that&rsquo;s the key.</p>
+
+          <p>[...] your taste is good enough that you can tell what you&rsquo;re making is kind of a disappointment to you.</p>
+
+          <p>Sobriety, open-mindedness, organization, and purpose &mdash; these are the great stabilizers. They balance out the ego and pride that come with achievement and recognition.</p>
+
+          <p>&ldquo;It is hard to bear the results of good fortune suitably.&rdquo;</p>
+
+          <p>We know that empires always fall, so we must think about why &mdash; and why they seem to always collapse from within.</p>
+
+          <p>&ldquo;As our island of knowledge grows, so does the shore of our ignorance.&rdquo;</p>
+
+          <p>No matter what you&rsquo;ve done up to this point, you better still be a student. If you&rsquo;re not still learning, you&rsquo;re already dying.</p>
+
+          <p>Put yourself in rooms where you&rsquo;re the least knowledgeable person.</p>
+
+          <p>[...] we&rsquo;re never happy with what we have, we want what others have too.</p>
+
+          <p>All of us waste precious life doing things we don&rsquo;t like, to prove ourselves to people we don&rsquo;t respect, and to get things we don&rsquo;t want.</p>
+
+          <p>So why do you do what you do? That&rsquo;s the question you need to answer. Stare at it until you can.</p>
+
+          <p>In reality, we don&rsquo;t control the weather, we don&rsquo;t control the market, we don&rsquo;t control other people, and our efforts and energies in spite of this are pure waste.</p>
+
+          <p>As you become successful in your own field, your responsibilities may begin to change. Days become less and less about doing and more and more about making decisions. Such is the nature of leadership.</p>
+
+          <p>Creativity is a matter of receptiveness and recognition. This cannot happen if you&rsquo;re convinced the world revolves around you.</p>
+
+          <p>We have to stand up for ourselves, right? But do we? So often, this is just ego, escalating tension more than dealing with it.</p>
+
+          <p>Most successful people are people you&rsquo;ve never heard of. They want it that way. It keeps them sober. It helps them do their jobs.</p>
+
+          <p>We don&rsquo;t need pity &mdash; our own or anyone else&rsquo;s &mdash; we need purpose, poise and patience.</p>
+
+          <p>Almost without exception, this is what life does: it takes our plans and dashes them to pieces. Sometimes once, sometimes lots of times.</p>
+
+          <p>Whether what you&rsquo;re going through is your fault or your problem doesn&rsquo;t matter, because it&rsquo;s yours to deal with right now.</p>
+
+          <p>If ego holds sway, we&rsquo;ll accept nothing less than full appreciation.</p>
+
+          <p>Maybe your parents will never be impressed. Maybe your girlfriend won&rsquo;t care. Maybe the investor won&rsquo;t see the numbers. Maybe the audience won&rsquo;t clap. But we have to be able to push through. We can&rsquo;t let that be what motivates us.</p>
+
+          <p>&ldquo;Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to do your best to become the best that you are capable of becoming.&rdquo;</p>
+
+          <p>&ldquo;The world breaks every one and afterward many are strong at the broken places. But those that will not break it kills.&rdquo;</p>
+
+          <p>In 12-step groups, almost all the steps are about suppressing the ego and clearing out the entitlements and baggage and wreckage that has been accumulated &mdash; so that you might see what&rsquo;s left when all of that is stripped away and the real you is left.</p>
+
+          <p>It can ruin your life only if it ruins your character.</p>
+
+          <p>&ldquo;He who fears death will never do anything worthy of a living man.&rdquo;</p>
+
+          <p>Your potential, the absolute best you&rsquo;re capable of &mdash; that&rsquo;s the metric to measure yourself against.</p>
+
+          <p>&ldquo;See much, study much, suffer much, that is the path to wisdom.&rdquo;</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-07-25">July 25th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="8-deep-work">
+        <a href="#8-deep-work">Deep Work, Cal Newport</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>In this new economy, three groups will have a particular advantage: those who can work well and creatively with intelligent machines, those who are the best at what they do, and those with access to capital.</p>
+
+          <p>Diffused attention is almost antithetical to the focused attention required by deliberate practice.</p>
+
+          <p>Clarity about what matters provides clarity about what does not.</p>
+
+          <p>&ldquo;We who cut mere stones must always be envisioning cathedrals.&rdquo;</p>
+
+          <p>You don&rsquo;t need a rarified job; you need instead a rarified approach to your work.</p>
+
+          <p>Deep work, therefore, is key to extracting meaning from your profession.</p>
+
+          <p>[...] perhaps the single best piece of advice I can offer to anyone trying to do creative work is to ignore inspiration.</p>
+
+          <p>By leveraging a radical change to your normal environment, coupled perhaps with a significant investment of effort or money, all dedicated toward supporting a deep work task, you increase the perceived importance of the task. This boost in importance reduces your mind&rsquo;s instinct to procastrinate and delivers an injection of motivation and energy.</p>
+
+          <p>The presence of the other party waiting for your next insight &mdash; be it someone physically in the same room or collaborating with you virtually &mdash; can short-circuit the natural instinct to avoid depth.</p>
+
+          <p>&ldquo;The more you try to do the less you actually accomplish.&rdquo;</p>
+
+          <p>Only the confidence that you&rsquo;re done with work until the next day can convince your brain to downshift to the level where it can begin to recharge for the next day to follow.</p>
+
+          <p>Committing to a specific plan for a goal may therefore not only facilitate attainment of the goal but may also free cognitive resources for other pursuits.</p>
+
+          <p>When you work, work hard. When you&rsquo;re done, be done.</p>
+
+          <p>Don&rsquo;t take breaks from distraction. Instead, take breaks from focus.</p>
+
+          <p>This doesn&rsquo;t mean that you have to eliminate distracting behaviours; it&rsquo;s sufficient that you instead eliminate the ability of such behaviours to hijack your attention.</p>
+
+          <p>The notion that identifying some benefit is sufficient to invest money, time, and attention in a tool is near laughable to people in his trade.</p>
+
+          <p>[...] all activities, regardless of their importance, consume your same limited store of time and attention.</p>
+
+          <p>Put more thought into your leisure time.</p>
+
+          <p>The implication is that once you&rsquo;ve hit your deep work limit in a given day, you&rsquo;ll experience diminishing rewards if you try to cram in more.</p>
+
+          <p>There&rsquo;s also an uneasiness that surrounds any effort to produce the best things you&rsquo;re capable of producing, as this forces you to confront the possibility that yout best is not (yet) that good.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-07-24">July 24th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="7-letter-of-advice">
+        <a href="#7-letter-of-advice">A Letter of Advice to His Teenage Son, Sherwood Anderson</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>Most men just drift.</p>
+
+          <p>The object drawn doesn’t matter so much. It&rsquo;s what you feel about it, what it means to you.</p>
+
+          <p>The object of art is not to make salable pictures. It is to save yourself.</p>
+
+          <p>The thing of course, is to make yourself alive. Most people remain all their lives in a stupor.</p>
+
+          <p>You won&rsquo;t arrive. It is an endless search.</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-24">July 24th, 2018</time> from Belgrade, Serbia.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="6-origins-black-coffee">
+        <a href="#6-origins-black-coffee">ORIGINS: Black Coffee</a>
+      </h2>
+
+      <section>
+        <full-width-iframe original-width="640" original-height="360" src="https://www.youtube-nocookie.com/embed/lio7k3tMoqM?rel=0"></full-width-iframe>
+      </section>
+
+      <section class="content">
+        <p>I've been watching the <a href="https://www.residentadvisor.net/features.aspx?series=origins">ORIGINS series by SONOS &amp; Resident Advisor</a> and while most videos' production and storytelling so far have been excellent, this one featuring Black Coffee takes things to another level. The political and social commentary inherent to this film add extra weight that goes beyond a single DJ's story, to a whole people's.</p>
+
+        <p>Although I am slightly biased, having been to South Africa, I definitely think it's worth a watch. Further viewing: <a href="https://www.residentadvisor.net/features/2275">Jackmaster</a>, and the rest of the series.</p>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-17">June 24th, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="5-how-pleasure-works">
+        <a href="#5-how-pleasure-works">How Pleasure Works, by Paul Bloom</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>[...] people naturally assume that things in the world &mdash; including other people &mdash; have invisible essences that make them what they are.</p>
+
+          <p>The psychologist Steven Pinker notes that people are happiest then &ldquo;healthy, well-fed, comfortable, safe, prosperous, knowledgeable, respected, non-celibate, and loved.&rdquo;</p>
+
+          <p>It&rsquo;s easy to satirize the political correctness here, but nouns really do carry essential weight.</p>
+
+          <p>Pleasue from pain is uniquely human. No other animal willingly eats such foods when there are alternatives.</p>
+
+          <p>[...] sexual pleasure is not merely a matter of physical sensation. It is also rooted in beliefs about who someone really is and what someone really is.</p>
+
+          <p>[...] sex, like food, is the sort of thing that one usually has to work to get; it won&rsquo;t just come to you.</p>
+
+          <p>Prostitution exists largely to satisfy this male desire for variety, as does pornography. There are male prostitutes and depictions of male nudity and male sexuality in pornography, but, for the most part, these exist for gay men.</p>
+
+          <p>We can be smart and we can be kind. Smart enough and kind enough, for instance, to divert ourselves through fantasy, to deny ourselves pleasures that we believe to be wrong, to take the perspective of another person, to rationally compute costs and benefits, and so on. We can choose to be like those adorable penguins.</p>
+
+          <p>Even when we are with actual individuals, we can be transfixed by a body part while being indifferent to the person who comes with it.</p>
+
+          <p>[...] in the largest study ever of human mate preferences, looking at people in 37 cultures, the most important factor for both men and women is kindness.</p>
+
+          <p>[...] the best gifts for someone you live with are those that you, yourself, wouldn&rsquo;t want.</p>
+
+          <p>&rdquo;Love is a gross exaggeration of the difference between one person and everybody else.&rdquo;</p>
+
+          <p>In a clever experiment, the psychologist Philip Tetlock and his colleagues presented subjects with stories about a person who deliberates over a taboo trafe-off &mdash; a hospital administrator who has to choose whether to spend a million dollars to save a dying five-year-old &mdash; and they found that subjects disapproved of him regardless of what he ultimately decided. It taints one to think about such choices.</p>
+
+          <p>He finds that MIT graduates and Harvard MBA students are more likely to steal cans of Coke than dollar bills.</p>
+
+          <p>Yale students are busy, and often rich, and if we offered them $2, few would stop. Instead we offer Snapple or M&M&rsquo;s. This works better than cash &mdash; even though the value of what we offer is less than $2. Money would frame our request as a commercial transaction, and not an appealing one, while the offer of a snack brings out people&rsquo;s best natures.</p>
+
+          <p>You might thing that we choose what we like, which of course is true. But what&rsquo;s less obvious is that we like what we choose.</p>
+
+          <p>What you&rsquo;ll tend to find is that the rejected object has dropped in value &mdash; is tainted by not having been chosen the first time around, and so the tendency here is to chooose the new object.</p>
+
+          <p>Much of the pleasure that we get from art is rooted in an appreciation of the human history underlying its creation. This is its essence.</p>
+
+          <p>Most people are 20 or younger when they hear the music they&rsquo;re going to want to listen for the rest of their lives.</p>
+
+          <p>Still, if art is a performance, two facts follow:
+            <ol>
+              <li>Artwork is intentional.</li>
+              <li>Artwork is intended to have an audience.</li>
+            </ol>
+          </p>
+
+          <p>In rural England, there are gurning competitions, where people compete to distort their faces into hideous positions. The rules are straightfoward. Competitors put their heads through a horse collar and have a set time in which to contort their faces into the scariest or silliest expression possible. False teeth may be left in, taken out, or turned upside down if desired.</p>
+
+          <p>&rdquo;I am interested in when and why individuals might choose to watch the television show <em>Friends</em> rather than spending time with actual friends.&rdquo;</p>
+
+          <p>We enjoy imaginative experiences because at some level we don&rsquo;t distinguish them from real ones.</p>
+
+          <p>This capacity to reason about another&rsquo;s false belief is important. It makes it possible to teach, a skill that involves keeping in mind that another person knows less than you do.</p>
+
+          <p>&rdquo;There is very little difference between one man and another; but what little there is, is <em>very important</em>.&rdquo;</p>
+
+          <p>&rdquo;Fiction is life with the dull bits left out.&rdquo;</p>
+
+          <p>Fiction is a form of performance and, as such, we take pleasure from what we see as the virtuosity and intelligence of its creator. There is the thrill of being in the hands of someone who controls the story, someone who persuades and entrances and misdirects, someone who is (in this domain, at least) smarter than we are.</p>
+
+          <p>Freud suggested that masochism is sadism directed inward; the idea here is similar &mdash; perhaps severe masochism is punishment directed toward oneself.</p>
+
+          <p>In one clever study, undergraduates were invited to give themselves electric shocks by turning a dial. The interesting finding is that the intesity of the shock went up if, before being hooked up to the machine, they were asked to recall some sin, something they had done wrong in their lives.</p>
+
+          <p>The French philosopher Gilles Deleuze might be partially right, then, when he insisted that masochism isn&rsquo;t really about pain and humiliation, it&rsquo;s about suspense and fantasy. Control is essential, and this is what makes masochistic pleasure so different from ordinary pleasure.</p>
+
+          <p>[...] so many real-world pleasures involve some loss of control and in a daydream you have perfect control.</p>
+
+          <p>The point was appreciated in a classic <em>Twilight Zone</em> episode in which a violent thug dies and finds himself in a place in which his every wish is satisfied. He is shocked to be in paradise and at first has a wonderful time. But he gets frustrated and bored, and after a month tells his guide: &ldquo;I don&rsquo;t belong in heaven, see? I want to go to the other place." The guide responds: &ldquo;Whatever gave you the idea that you were in heaven, Mr. Valentine? This <em>is</em> the other place!" Cue maniacal laughter.</p>
+
+          <p>Daydreams are the opposite of dreams, then, because in dreams you typically have no control at all. This means that a good dream can be more pleasurable than a good daydream, while a nightmare can be terrible indeed.</p>
+
+          <p>[...] evolution is a satisfier, not an optimizer.</p>
+
+          <p>Economists such as Robert Frank and Richard Layard and evolutionary psychologists such as Geoffrey Miller have argued that the obsession that many of us have with acquiring luxury goods has a social cost, and that society would do better if such acquisitions were blocked or discouraged.</p>
+
+          <p>When it comes to nature, we want the real thing; we are uncomfortable with substitutes.</p>
+
+          <p>There is something more basic that all religions share and which spills over as well to what is often described as <em>spirituality</em>. This is the notion that there is more to the world than what strikes our senses. There is a deeper reality that has personal and moral significance.</p>
+
+          <p>This experience of the transcendent may be connected to the fascinating and little-understood emotion of awe.</p>
+
+          <p>Awe is a mystery from an evolutionary perspective. Keltner suggests that at its core, awe is a social emotion; it corresponds to a &ldquo;sense of reverence for the collective." Its primary trigger is powerful people who unite the community, and we diminish ourselves and are subservient to these awe-inspiring others.</p>
+
+          <p>I think the world would be better off if awe didn&rsquo;t exist. We would be better off if we would cold-bloodedly assess the abilities and goals of prospective leaders and weren&rsquo;t so prone to swoon.</p>
+
+          <p>Alison Gopnik makes the connection between the satisfaction of orgasm as a spur to more sex and the satisfaction of a good explanation as a spur to further exploration.</p>
+
+          <p>In other words: don&rsquo;t ask. I think Winnicott&rsquo;s remark captures the ambiguity that many people feel with regard to their religious beliefs. They have an odd and fragile status. For science too, there are questions that arise about certain more theoretical constructs. Are quarks and superstrings real or convenient abstractions? Some would advise: don&rsquo;t ask.</p>
+
+          <p>There was a six-year-old girl sitting with her arms curled around a piece of paper, intensely absorbed in her drawing. Her teacher waited for more than 20 minutes and then went up to the girl and asked what she was drawing. Without looking up, the girl said, &ldquo;I&rsquo;m drawing a picture of God." The teacher was surprised and said, "But nobody knows what God looks like." And the girl said, &ldquo;They will in a minute.&rdquo;</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-24">June 24th, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="4-left-bank">
+        <a href="#4-left-bank">Left Bank, by Agnès Poirier</a>
+      </h2>
+
+      <section class="content">
+        <blockquote>
+          <p>[...] all had learned by heart what was expected of them: as soon as the boat ramps go down, jump, swim, run and crawl in the sand, up to the cliffs two hundred yards in front of you. [...] Hell was upon them.</p>
+
+          <p>Almost seventy-five years later, the bullet holes are still there on the buildings.</p>
+
+          <p>The more passive they had been during the Occupation, the more revengeful they proved towards alleged <em>collabos</em>. The personal shame they felt at their inaction made them all the more aggressive.</p>
+
+          <p>&ldquo;[...] When I feel like saying yes, I do not know how to say no.&rdquo;</p>
+
+          <p>&ldquo;What you will ever know of a painting is how much you love it, and perhaps, if it interests you, why you love it.&rdquo;</p>
+
+          <p>&ldquo;One cannot be and have been.&rdquo;</p>
+
+          <p>It was the lesson learned from the war: indifference bred chaos.</p>
+
+          <p>Responsibility for their actions as much as for their inactions, for their commitment or lack of it, was theirs and theirs alone.</p>
+
+          <p>&ldquo;Why not?&rdquo;</p>
+
+          <p>Boris Vian, whom Simone had invited to join the writers&rsquo; team, had forgotten his umbrella but had thought of bringing his trumpet: one never know, it could prove useful.</p>
+
+          <p>What he resented most was the lack of time for his work and the silent demands made on him by his wife. He now started to understand and greatly envy Beauvoir and Sartre&rsquo;s pact: no children, ever, together or with anybody else.</p>
+
+          <p>They worked hard, they played hard, they had an iron discipline, writing fourteen hours a day, going out every evening, cultivating a large family of loyal friends and lovers, living in hotel rooms with no issues of domesticity and spending every penny they earned &mdash; was not this the only, and truly revolutionary, way for a writer to live?</p>
+
+          <p>He would simply have to cheat and lie the way the bourgeois had always done.</p>
+
+          <p>He dreamed of a hotel room where he could write, where he could be alone, where there would be no inlaws, no babies screaming, no smell of vomit and nappies.</p>
+
+          <p>[...] despite his feelings for her, he longed to go back to the many flaws of Paris and Europe, to a place where people did not just &ldquo;pretend to live&rdquo;, a place where &ldquo;conversations were full of wit, even bad, full of irony, of passion and its string of lies&rdquo;.</p>
+
+          <p>She was silently resentful; he was silently offended and angry.</p>
+
+          <p>Camus nonetheless feared intelligent women. Brought up in a male chauvinist French North African culture, he had difficulty reconciling desire and intellect in his relations with women. He needed to dominate one way or another.</p>
+
+          <p>He was one of France&rsquo;s public moral thinkers, and yet the private man could not reconcile his longing for truth with his thirst for freedom.</p>
+
+          <p>&ldquo;Édith, this is an ambush.&rdquo; She looked pale and troubled, almost ill. &ldquo;I love you as a man loves a woman.&rdquo;</p>
+
+          <p>Sartre and Beauvoir constantly learned from the young. It was an enriching exchange for all involved.</p>
+
+          <p>Mamaine was everything Beauvoir and Thomas had refused to be and had fought hard not to be. Mamaine, like Francine Camus, was going to be a wife whose talents would lie in fostering her husband&rsquo;s career without ever getting the credit for it. This imbalance, this injustice, and the hypocrisy surrounding it would both poison their marital and family lives and ruin their health.</p>
+
+          <p>&ldquo;In America, there are a thousand taboos that ban love outside marriage and there are those thousands of used condoms littering the back courtyards of university campuses, there are all those cars, lights switched off, parked by the road, there are all those men and women who need a stiff drink before making love, in order to copulate and forget all about it. Nowhere will anyone find such a discrepancy between myths and men, between life and its collective representation.&rdquo;</p>
+
+          <p>&ldquo;There are days, just after I have worked very hard for days on end, when I feel like those flatfish washed on to the rocks after hey have fucked too much, moribund, emptied of their substance.&ldquo;</p>
+
+          <p>This was Sartrean rhetoric in all its glory: witty but questionable.</p>
+
+          <p>The fear of love, he observed, produces nervous disorders.</p>
+
+          <p>&ldquo;And in the end the passionate idealists forget the omelette, and just go on breaking eggs.&rdquo;</p>
+
+          <p>&ldquo;Clandestine life had given us a heady freedom: travelling, leather jackets, risks, woolen cardigans and fraternity. When liberation came, we felt unable to adapt to peace, to have a career, to obey conventions, to accept life&rsquo;s new monotony.&rdquo;</p>
+
+          <p>&ldquo;I take great liberties in my private life and concede the same liberties. Naturally, this leads sometimes to somewhat painful conclusions. On the other hand, it gives more basic stability to a relationship than things done on the sly.&rdquo;</p>
+
+          <p>&ldquo;[...] American youth prefers pretending that politics is for experts and specialists.&rdquo;</p>
+
+          <p>&ldquo;Often preached but rarely put into practice, sexual faithfulness is usually experienced by those who abide by it as a mutilation: they try to get over it by way of sublimation, or with wine.&rdquo;</p>
+
+          <p>There was a Dr Polin, a female gynaecologist: &ldquo;I can&rsquo;t help but marvel at how intensely feminine and at the same time intellectual the French woman is,&rdquo; he wrote in his diary on 17 August 1947. And two weeks later: &ldquo;I must hide this journal. Ellen is looking at me as though she has read some of it.&rdquo;</p>
+
+          <p>Sartre preferred Benzedrine or Corydrane, another stimulant freely available over the counter, which he said he was taking to both relax and focus. &ldquo;But whereas journalists woud take a tablet or half-tablet to get them going, Sartre took four. Most people took them with water; Sartre crunched them.&rdquo; Besides Corydrane, Sartre smoked two packets of unfiltered Boyards a day and gulped litres of coffee and tea. At night, he usually drank half a bottle of whisky before taking four or five sleeping pills to knock himself out.</p>
+
+          <p>[...] had managed to get his unpublished novel <em>Murphy</em> translated into French and published by Bordas. The miracle was short-lived, though, and turned into disaster. Only a dozen copies were sold in the first twelve months. Used to failure, the news did not upset Beckett too much.</p>
+
+          <p>The seductress Dominique had fallen for Jean Paulhan, twenty-three years her senior but her perfect intellectual match. Their paths often crossed at Gallimard and the inevitable gentle stroking in the publishing house&rsquo;s narrow corridors had led to more serious cavorting behind closed doors. [...] They were clear from the start: Paulhan would never leave his wife, and Dominique was neither the marrying nor the exclusive kind. [...] The terms did not, however, preclude passion and lasting love, quite the opposite. They remained lovers and soulmates for more than twenty years, until Paulhan&rsquo;s death in 1968.</p>
+
+          <p>She knew better than to try to fence Dominique in; she would have to endure it, swallow her pride, repress her jealousy and share her lover with others. It was a painful thought, but it was more painful still to think she might lose Dominique.</p>
+
+          <p>The idea of a united and independent Europe as a counterbalance and counterpower to the bloc politics was emerging, a Europe that would adopt non-Communist socialism and divest itself of its colonies.</p>
+
+          <p>&ldquo;[...] Sartre started attacking Kaplan in violent terms. K got so cross that he let fly at Sartre and said who are you to talk about liberty when for years you&rsquo;ve run a magazine which was <em>communisant</em> and thus condoned the deportations of millions of people from the Baltic States and so on? Sartre was a bit taken aback by this. We left.&rdquo;</p>
+
+          <p>&ldquo;[...] At this stage of extreme youth of nature and men, neither the beautiful nor the ugly exist yet, neither taste nor people of taste, not even criticism: everything is waiting to be created.&rdquo;</p>
+
+          <p>Mamaine went with them and just watched, as everyone else did, even Koestler, Malraux being Malraux, master of his own pyrotechnics. &ldquo;Malraux was more extraordinary than ever. He spoke for four hours non-stop. Usual brilliance,&rdquo; summarized Mamaine in a letter she wrote the same evening to her sister.</p>
+
+          <p>He did not know what he enjoyed more that evening: speaking German all night or peering closely into those piercing blue eyes.</p>
+
+          <p>&ldquo;[...] nowadays everyone manufactures. Few create. If an individiual knows the difference, and I do, the failure to create leaves only one conclusion: one has manufactured.&rdquo;</p>
+
+          <p>He had a title in mind and asked Suzanne what she thought of it. What about <em>En attendant Godot</em>? She looked puzzled. Waiting for Godot? And who was this Godot? Of course, Beckett would not tell her. He mumbled something about a wordplay on &ldquo;God&rdquo;. He would later confide to his friend Con Leventhal the real origin of the title. Beckett often went to the rue Godot de Mauroy, in the 9th arrondissement, popular with prostitutes. One day a girl asked if he needed her services; when he turned down her offer, she replied sarcastically, &ldquo;Oh yeah, and who are you waiting for, then? Godot?&rdquo;</p>
+
+          <p>And unlike in other countries such as Britain, home ownership in France was not considered a great personal achievement, or a landmark in one&rsquo;s life.</p>
+
+          <p>Instead of butter, Parisians increasingly fed on Jazz.</p>
+
+          <p>In the intellectual and artistic world of Paris 1948, if your skin colour, your religion and your nationality were irrelevant to the way you lived and were seen, your gender had far-reaching repercussions for your happiness, ambitions and health. To be a woman, even in liberated Paris, was a congenital predicament.</p>
+
+          <p>Meanwhile, she continued to work as his secretary, translator, copy-editor, governess and <em>souffre-douleur</em> (punching bag), while receiving no credit for her work and being completely dependent on him financially. Mamaine thought she had to endure Koestler&rsquo;s moods and whims. She thought it was her moral duty and the lot of all life companions. She would soon develop &lsquo;asthma attacks&rsquo;, or so a succession of perplexed doctors told her. Was it asthma, or was she growing allergic to Koestler? When Mamaine finally mustered the courage to leave the violent Arthur, her health had deteriorated beyond repair.</p>
+
+          <p>Koestler even gave her a Leica [...] in order to take pictures &mdash; pictures that would illustrate <em>his</em> articles, though her name would not appear alongside his. Mamaine thought it normal; she was just helping her partner, who was the brain, after all.</p>
+
+          <p>But what about Francine? Albert might have been spending some of his nights with his wife and children, along with family holidays in the summer, but she knew, as well as everybody else, that Maria was his true love, or rather his equal in love, while she was the wife at home and mother of his children, a lesser love. She had once had ambitions to be a concert pianist, but that was now a fading memory. Her family had originally been very happy that she married a promising writer. Now, her mother and sister had to fly from Algiers and keep her company and help with the children as she felt less and less well.</p>
+
+          <p>&ldquo;And here is a song for you, I wrote it, it&rsquo;s a gift. Go and see Joseph Kosma, he&rsquo;ll write the music for you.&rdquo;</p>
+
+          <p>Just like love, youthful beauty always ends in tears.</p>
+
+          <p>Cazalis lent her some money and told her to go to Pierre Balmain and get herself the cheapest garment in the couture shop. Juliette bought a little black dress.</p>
+
+          <p>&ldquo;This Bohemia has ceased to believe in style, has ceased to believe in art and, to a serious degree, has ceased to believe in man.&rdquo;</p>
+
+          <p>According to French belief, creativity did not spring from chaos but could only be achieved through discipline and knowledge.</p>
+
+          <p>For six months Kelly and Youngerman went every day, sketching, copying, soaking up others&rsquo; style like sponges. Kelly painted half-length portraits that combined the influence of Picasso and Byzantine art, while Youngerman was experimenting with Geometric Abstraction, Kandinsky on his mind.</p>
+
+          <p>Anita had seldom seen him so spiteful. &ldquo;When Bellow was intimidated, he went on the offensive.&rdquo;</p>
+
+          <p>He would soon find that Paris was, after all, &ldquo;a great machine for stimulating the nerves and sharpening the senses&rdquo; &mdash; and a great place for discreetly conducting extramarital affairs.</p>
+
+          <p>&ldquo;He had no idea what Europe meant. He would discover how Europeans tormented each other and continued to torment each other, all the while creating the values by which civilized men live.&rdquo;</p>
+
+          <p>&ldquo;Twenty-five beds in a long hospital ward painted green. For twelve days, I am Madame number 10. Out of the fifteen miscarriages, I will soon discover that a dozen have been &lsquo;triggered&rsquo;. It only took Madame number 9&rsquo;s announcement that it was her fifth self-inflicted abortion for everyone else on the ward to start speaking up. Doctors and nurses know about it all, of course, and so do not use anaesthetics. The operation is short, between seven and twelve minutes, but extremely painful. Society gets its revenge the way it can.</p>
+
+          <p>[...] found him &ldquo;cocksure, opinionated and dogmatic&rdquo;. In other words, they found him too French.</p>
+
+          <p>He found a room at 8 rue Verneuil, in a hotel owned by a Corsican family known for being very understanding with its lodgers, and managed by the arthritic Madame Dumont. They not only tolerated the eccentricities of their young penniless bohemian tenants, but also accepted that they paid whenever they could. Jazz could be heard in the hotel&rsquo;s corridors around the clock. When Mme Dumont wanted to sleep, she simply switched off the entire building&rsquo;s electricity.</p>
+
+          <p>Jealousy, along with the fear of rejection and of failure, consumed Bellow. Instead of going out of his way to socialise with Parisian intellectuals, he preferred to engage within a reassuring Chicago crowd while bitching about them.</p>
+
+          <p>He found Paris as beautiful as it was strange. &ldquo;It is a city that must have been designed for meeting others. Chance meetings had taken in Paris the power of design.&rdquo;</p>
+
+          <p>Some of the brightest stars of the Left Bank managed to see people at night <em>and</em> in the daytime, <em>and</em> to work. Sartre and Beauvoir had an unflinching discipline. They worked from nine in the morning until one in the afternoon, had lunch and saw people until five, then went back to their desks until nine at night, after which they would have dinner and often go out. They stuck to their routine, even on holidays.</p>
+
+          <p>Michelle wanted Boris to be a &ldquo;serious&rdquo; writer, interested in politics and <em>engagé</em>, but he had no time for seriousness. He knew he was slowly dying. Why should he waste time being serious? He cared only for his own brand of poetical fiction, and for jazz. The rest was futile.</p>
+
+          <p>Attacked on all fronts, Sartre managed to withstand storm after storm. He was too big to fall.</p>
+
+          <p>He took out his brown <em>carnet</em> and wrote: &ldquo;The RDR has imploded. Tough. New and definite lessons in Realism. One doesn&rsquo;t give birth to a movement. Circumstances only apperared to favour its creation. It did correspond to an abstract necessity, defined by an objective situation; however it didn&rsquo;t answer an actual and real need in people. This is the reason why, in the end, they didn&rsquo;t support it.&rdquo;</p>
+
+          <p>They both found his style unlike any other; &ldquo;hypnotic&rdquo; was probably the best word to describe its effect on readers. Whether in his essays, his literary biographies like the one he was writing about Jean Genet, or his novels, Sartre never let his words rest. Reading Sartre often felt like watching a breathless chase or a daring highwire act.</p>
+
+          <p>What Paris provided was an education, &ldquo;not the lessons of school but a view of existence: how to have leisure, love, food, and conversation, how to look at nakedness, architecture, streets, all new and seeking to be thought of in a different way&rdquo;.</p>
+
+          <p>Frugality was their way to deal with the absurdity of life.</p>
+
+          <p>Miles and Juliette spent their evenings walking in the streets of Paris, hand in hand, going from one jazz club to another, café to bistro, friend to friend, without anyone staring at them. Juliette did not speak English, Miles did not speak French. &ldquo;I have not a clue how we managed. The miracle of love,&rdquo; explained Juliette years later.</p>
+
+          <p>Jean-Paul, meanwhile, was busy making Michelle Vian laugh; everybody around him knew what it meant, except Boris, the soon-to-be-cheated-on husband.</p>
+
+          <p>&ldquo;Desire and pleasure seem to her truer than precepts and conventions. She does what she pleases and this is what is so troubling.&rdquo;</p>
+        </blockquote>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-21">June 21st, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="diary-title title is-size-2" id="3-moving-cities">
+        <a href="#3-moving-cities">Moving Cities</a>
+      </h2>
+
+      <section>
+        <full-width-iframe original-width="640" original-height="312" src="https://player.vimeo.com/video/193900430"></full-width-iframe>
+      </section>
+
+      <section class="content">
+        <p>Happily bumped into this while uploading some photos to WeTransfer. Although I don&rsquo;t generally enjoy watching dance, I found these movies beautiful.</p>
+
+        <p>The <a href="https://wepresent.wetransfer.com/story/moving-cities/">WeTransfer article</a> describes the work and includes snippets by the author and links to the project&rsquo;s original website.</p>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-17">June 17th, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="title diary-title is-size-2" id="2-exarcheia-athens-greece">
+        <a href="#2-exarcheia-athens-greece">Exarcheia, Athens, Greece</a>
+      </h2>
+
+      <section class="content">
+        <img src="<%= Routes.static_path(@conn, "/images/diary/83300010.JPG") %>" />
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-17">June 17th, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+
+    <article>
+      <h2 class="title diary-title is-size-2" id="1-this-diary">
+        <a href="#1-this-diary">This Diary</a>
+      </h2>
+
+      <section class="content">
+        <p>An experiment. I want to use this as an excuse to write more (and thus become a better writer), and share more, but I also got the idea from another website to include some photos that are significant at any specific time, and am extending that with things that inspire me like videos, music, book notes, etc.</p>
+
+        <p>It&rsquo;ll then be a personal archive of sorts, plus a blog, which hopefully won&rsquo;t be too chaotic.</p>
+      </section>
+
+      <section class="diary-footer">
+        Posted on <time datetime="2018-06-17">June 17th, 2018</time> from Exarcheia, Athens, Greece.
+      </section>
+    </article>
+  </div>
+</main>

@@ -1,0 +1,34 @@
+# Ignore built code from dev & test envs
+_build/dev
+_build/test
+
+# Ignore local deps. Would be faster if we didn't, but we might be using patched
+# versions locally that we don't want to send to prod.
+deps
+
+# Ignore keys
+*.pem
+
+# Ignore unnecessary files
+.git/
+.gitignore
+README*
+ferreira.rocks.sublime-project
+ferreira.rocks.sublime-workspace
+
+# Ignore tests
+test/
+
+# Ignore pre-built assets
+priv/static/
+
+# Ignore terraform
+devops/docker/tf
+
+# Ignore language server files
+.elixir_ls
+
+# Ignore auth files
+devops/FerreiraRocks-542aab0986e4.json
+devops/constant-cursor-295616-ferreira-rocks-prod-f9bc92a2b178.json
+devops/.terraform.lock.hcl
