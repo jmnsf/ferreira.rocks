@@ -1,0 +1,31 @@
+<div class="section">
+  <div class="container text">
+    <h1 class="title is-massive">TL</h1>
+
+    <%= if length(@posts) == 0 do %>
+      <span class="empty">
+        This TL is empty...
+      </span>
+    <% end %>
+
+    <%= for post <- @posts do %>
+      <article class="post" id="post-<%= post.id %>">
+        <h2 class="title is-size-2" id="post-<%= post.id %>">
+          <%= post.title %>
+        </h2>
+
+        <section class="content">
+          <%= raw(post.content) %>
+        </section>
+
+        <section class="post-footer">
+          Posted on <time datetime="<%= post.published_at %>"><%= format_date(post.published_at) %></time> from <%= post.location %>.
+        </section>
+
+        <%= if is_dev() do %>
+          <%= live_redirect "Edit", to: Routes.time_line_edit_path(@socket, :edit, post.id) %>
+        <% end %>
+      </article>
+    <% end %>
+  </div>
+</div>

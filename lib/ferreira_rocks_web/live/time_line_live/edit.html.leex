@@ -1,0 +1,27 @@
+<div class="section post-edit">
+  <div class="container text">
+    <header class="post-header">
+      <%= live_redirect "< back", to: Routes.time_line_index_path(@socket, :index) %>
+
+      <h1 class="title is-massive"><%= Ecto.Changeset.get_field(@changeset, :title) %></h1>
+
+      <%= if is_nil(@changeset.data.published_at) do %>
+        <button class="button is-primary" phx-click="publish">
+          Publish
+        </button>
+      <% else %>
+        <button class="button is-warning" phx-click="unpublish">
+          Un-publish
+        </button>
+      <% end %>
+    </header>
+
+    <%=
+      live_component(
+        @socket,
+        FerreiraRocksWeb.TimeLineLive.PostForm,
+        changeset: @changeset
+      )
+    %>
+  </div>
+</div>

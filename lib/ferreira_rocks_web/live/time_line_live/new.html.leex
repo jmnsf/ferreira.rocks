@@ -1,0 +1,12 @@
+<div class="section">
+  <div class="container text">
+    <h1 class="title is-massive">New TL</h1>
+    <%=
+      live_component(
+        @socket,
+        FerreiraRocksWeb.TimeLineLive.PostForm,
+        changeset: @changeset
+      )
+    %>
+  </div>
+</div>
