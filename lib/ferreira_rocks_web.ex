@@ -90,6 +90,10 @@ defmodule FerreiraRocksWeb do
       import FerreiraRocksWeb.ErrorHelpers
       import FerreiraRocksWeb.Gettext
       alias FerreiraRocksWeb.Router.Helpers, as: Routes
+
+      @env Mix.env()
+
+      def is_dev, do: @env == :dev
     end
   end
 

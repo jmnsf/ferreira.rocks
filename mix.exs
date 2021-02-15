@@ -35,7 +35,7 @@ defmodule FerreiraRocks.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:ecto3_mnesia, "~> 0.2.2"},
+      {:ecto3_mnesia, git: "https://gitlab.com/jmnsf/ecto3_mnesia.git", ref: "d39fda8"},
       {:floki, ">= 0.27.0", only: :test},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
@@ -47,7 +47,8 @@ defmodule FerreiraRocks.MixProject do
       {:phoenix_live_dashboard, "~> 0.3 or ~> 0.2.9"},
       {:plug_cowboy, "~> 2.0"},
       {:telemetry_metrics, "~> 0.4"},
-      {:telemetry_poller, "~> 0.4"}
+      {:telemetry_poller, "~> 0.4"},
+      {:timex, "~> 3.6"}
     ]
   end
 

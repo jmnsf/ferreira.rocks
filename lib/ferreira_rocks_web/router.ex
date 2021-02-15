@@ -1,6 +1,8 @@
 defmodule FerreiraRocksWeb.Router do
   use FerreiraRocksWeb, :router
 
+  @env Mix.env()
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -17,10 +19,16 @@ defmodule FerreiraRocksWeb.Router do
   scope "/", FerreiraRocksWeb do
     pipe_through :browser
 
-    get "/", LegacyPageController, :index
-    get "/:page", LegacyPageController, :show
+    live "/tl", TimeLineLive.Index, :index
 
-    # live "/", PageLive, :index
+    if @env == :dev do
+      live "/tl/new", TimeLineLive.New, :new
+      live "/tl/:id/edit", TimeLineLive.Edit, :edit
+    end
+
+    live "/:page", PageLive, :show
+
+    live "/", PageLive, :index
   end
 
   # Other scopes may use custom stacks.

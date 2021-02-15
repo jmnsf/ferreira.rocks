@@ -1,4 +1,4 @@
-<script defer phx-track-static type="text/javascript" src="<%= Routes.static_path(@conn, "/js/diary.js") %>"></script>
+<script defer phx-track-static type="text/javascript" src="<%= Routes.static_path(@socket, "/js/diary.js") %>"></script>
 
 <main class="section">
   <template id="full-width-iframe">
@@ -347,7 +347,7 @@
       </h2>
 
       <section class="content">
-        <img src="<%= Routes.static_path(@conn, "/images/diary/IMG_20181013_093239.jpg") %>" />
+        <img src="<%= Routes.static_path(@socket, "/images/diary/IMG_20181013_093239.jpg") %>" />
       </section>
 
       <section class="diary-footer">
@@ -578,7 +578,7 @@ factorial(5) // 120</pre>
       </h2>
 
       <section class="content">
-        <img src="<%= Routes.static_path(@conn, "/images/diary/000063.JPG") %>" />
+        <img src="<%= Routes.static_path(@socket, "/images/diary/000063.JPG") %>" />
       </section>
 
       <section class="diary-footer">
@@ -1111,7 +1111,7 @@ factorial(5) // 120</pre>
       </h2>
 
       <section class="content">
-        <img src="<%= Routes.static_path(@conn, "/images/diary/83300010.JPG") %>" />
+        <img src="<%= Routes.static_path(@socket, "/images/diary/83300010.JPG") %>" />
       </section>
 
       <section class="diary-footer">
